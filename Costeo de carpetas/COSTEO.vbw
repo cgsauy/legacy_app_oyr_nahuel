@@ -1,0 +1,10 @@
+frmCosteo = 49, 352, 1245, 911, , 126, 21, 846, 517, C
+modStart = 100, 177, 829, 714, C
+ModImportaciones = 125, 125, 967, 514, 
+ModFormularios = 0, 0, 0, 0, C
+modFechas = 0, 0, 0, 0, C
+modListados = 0, 0, 0, 0, C
+frmMsgGastos = 35, 212, 905, 679, C, 150, 150, 1008, 506, C
+ModGlobales = 0, 0, 0, 0, C
+clsGastoTotal = 50, 50, 628, 475, C
+modGastoZureo = 50, 50, 628, 475, 

@@ -1,0 +1,11 @@
+frmMain = 67, 182, 1099, 908, , 69, 69, 680, 445, C
+modStart = 56, 105, 1197, 862, 
+modComun = 69, 69, 647, 531, 
+ModCrystal = 92, 92, 703, 468, 
+modConeccion = 275, 275, 1312, 912, 
+modFechas = 225, 225, 1262, 862, 
+ModFormularios = 50, 50, 1087, 687, 
+ModGlobales = 0, 0, 0, 0, C
+modMaeDisponibilidad = 92, 92, 857, 406, 
+clsImpresoraTicketsCnfg = 0, 0, 647, 314, 
+frmDondeImprimo = 23, 23, 670, 337, , 46, 46, 693, 360, C

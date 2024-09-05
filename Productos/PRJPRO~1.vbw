@@ -1,0 +1,9 @@
+frmProducto = -8, 2, 804, 614, , 22, 22, 664, 368, C
+modStart = 109, 80, 921, 659, C
+modConeccion = 129, 103, 576, 679, C
+ModFormularios = 35, 103, 937, 679, C
+ModGlobales = 129, 103, 576, 679, 
+modComun = 129, 103, 576, 679, C
+modServicio = 48, 73, 860, 685, C
+modFechas = 35, 103, 847, 679, 
+frmAyuda = 35, 103, 847, 679, C, 66, 66, 406, 412, C

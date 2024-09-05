@@ -1,0 +1,11 @@
+frmQuery = 88, 88, 307, 434, , 22, 22, 624, 444, C
+modConeccion = 0, 0, 0, 0, C
+ModFormularios = 0, 0, 0, 0, C
+modStart = 44, 44, 435, 390, 
+ModGlobales = 66, 66, 708, 412, 
+clsCMVenta = 0, 0, 0, 0, C
+clsCMCompra = 0, 0, 0, 0, C
+modFechas = 175, 175, 1333, 812, 
+modComun = 0, 0, 0, 0, C
+clsArticulo = 250, 250, 1310, 887, C
+clsMesCantidad = 250, 250, 1310, 887, C

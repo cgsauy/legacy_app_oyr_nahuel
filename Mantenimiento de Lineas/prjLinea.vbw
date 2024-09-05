@@ -1,0 +1,6 @@
+frmLinea = 0, 0, 0, 0, C, 25, 25, 677, 450, C
+modConeccion = 0, 0, 0, 0, C
+ModFormularios = 0, 0, 0, 0, C
+ModGlobales = 110, 110, 432, 423, C
+modStart = 0, 0, 0, 0, C
+modArrayString = 88, 88, 432, 360, C

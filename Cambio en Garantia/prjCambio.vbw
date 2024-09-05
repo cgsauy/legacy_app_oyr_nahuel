@@ -1,0 +1,9 @@
+frmMain = 44, 263, 856, 671, , 50, 50, 909, 475, C
+modStart = 124, 135, 855, 695, 
+modConeccion = 211, 90, 658, 666, C
+ModGlobales = 144, 103, 591, 679, C
+modFechas = 129, 103, 576, 679, C
+modRydesul = 144, 318, 837, 679, C
+modStock = 246, 78, 996, 653, C
+modComun = 144, 103, 591, 679, C
+ModFormularios = 144, 103, 745, 679, C

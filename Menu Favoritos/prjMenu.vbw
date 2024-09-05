@@ -1,0 +1,6 @@
+frmMenu = 91, 129, 908, 690, , 0, 0, 0, 0, C
+modStart = 86, 102, 929, 689, 
+modConeccion = 142, 103, 589, 679, C
+ModFormularios = 138, 103, 857, 679, C
+CFileDialog = 142, 103, 779, 679, C
+ModGlobales = 0, 0, 0, 0, C

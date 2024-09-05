@@ -1,0 +1,7 @@
+modStart = 66, 66, 557, 512, 
+ModGlobales = 0, 0, 0, 0, C
+modFechas = 0, 0, 0, 0, C
+modConeccion = 0, 0, 0, 0, C
+frmCedoProducto = 22, 22, 448, 468, , 66, 66, 576, 512, C
+modServicio = 0, 0, 0, 0, C
+ModFormularios = 0, 0, 0, 0, C

@@ -1,0 +1,7 @@
+modStart = 128, 88, 881, 664, 
+frmRemito = 65, 146, 877, 692, , 22, 22, 341, 368, C
+modConeccion = 129, 103, 576, 679, C
+modFechas = 0, 0, 0, 0, C
+ModCrystal = 129, 103, 872, 679, C
+ModGlobales = 129, 103, 576, 679, C
+modContador = 129, 103, 576, 679, 

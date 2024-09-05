@@ -1,0 +1,10 @@
+frmSolicitud = 51, 94, 1087, 874, , 112, 42, 860, 546, C
+ModFormularios = 129, 103, 811, 679, C
+modFechas = 175, 175, 973, 600, C
+modConeccion = 129, 103, 576, 679, C
+modComun = 59, 124, 862, 700, C
+ModGlobales = 35, 321, 894, 679, 
+modStart = 51, 109, 1064, 747, 
+modComercio = 35, 148, 944, 679, 
+modMaeDisponibilidad = 101, 149, 927, 812, 
+clsArticulo = 200, 200, 998, 625, 

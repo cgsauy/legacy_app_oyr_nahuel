@@ -1,0 +1,7 @@
+modStart = 75, 75, 950, 500, 
+frmMostrador = 50, 50, 1032, 357, , 25, 25, 1007, 332, C
+modStock = 0, 0, 0, 0, C
+ModFormularios = 0, 0, 0, 0, C
+ModGlobales = 100, 100, 1017, 737, C
+clsArticuloEntrega = 100, 100, 823, 525, C
+frmNumeroDeSerie = 150, 150, 873, 575, C, 75, 75, 798, 500, C

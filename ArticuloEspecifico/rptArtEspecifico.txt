@@ -1,0 +1,18 @@
+[Campo]x:y:Width:B:SizeFont:Align:FontName
+[MLeft]100
+[MRight]50
+[MTop]100
+[MBottom]100
+[ID]8000:300::B:14:L
+[Comentario]1000:1450:::10:L
+[Estado]1000:1700
+[Local]3000:1700
+[Nombre]1000:2000
+[NombreArticulo]2000:2300
+[Label.N/S:]2000:2800
+[NroSerie]3000:2800:::24::3 of 9 Barcode
+[NroSerie]3500:3250:::7::Tahoma
+[Label.Var Precio: $]2000:4800:::10:L
+[Variacion]2000:4800:1600:B:10:R
+[Tipo]3550:3950:1400::12:R
+

@@ -1,0 +1,6 @@
+frmMaDisponibilidad = 132, 132, 565, 580, C, 22, 22, 455, 470, C
+modStart = 66, 66, 499, 514, C
+ModGlobales = 176, 176, 746, 563, C
+ModFormularios = 0, 0, 0, 0, C
+ModImportaciones = 198, 198, 724, 646, C
+modConeccion = 0, 0, 0, 0, C

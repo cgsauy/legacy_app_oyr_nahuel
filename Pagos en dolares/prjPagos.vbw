@@ -1,0 +1,9 @@
+modConeccion = 132, 132, 665, 519, C
+modFechas = 35, 103, 482, 679, C
+ModGlobales = 132, 132, 528, 580, C
+ModFormularios = 132, 132, 860, 580, C
+modComun = 88, 88, 900, 719, C
+ModImportaciones = 132, 132, 854, 580, C
+modComercio = 154, 154, 902, 602, C
+frmRecibos = 27, 155, 1227, 880, , 0, 0, 0, 0, C
+modStart = 107, 106, 912, 682, C

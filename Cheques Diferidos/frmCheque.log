@@ -1,0 +1,38 @@
+Line 146: Class MSMask.MaskEdBox of control tBanco was not a loaded control class.
+Line 357: Class MSMask.MaskEdBox of control tCiF was not a loaded control class.
+Line 381: Class MSMask.MaskEdBox of control tRucF was not a loaded control class.
+Line 406: Class MSMask.MaskEdBox of control tCiC was not a loaded control class.
+Line 430: Class MSMask.MaskEdBox of control tRucC was not a loaded control class.
+Line 152: The property name _ExtentX in tBanco is invalid.
+Line 153: The property name _ExtentY in tBanco is invalid.
+Line 154: The property name _Version in tBanco is invalid.
+Line 157: The property name PromptInclude in tBanco is invalid.
+Line 158: The property name MaxLength in tBanco is invalid.
+Line 168: The property name Mask in tBanco is invalid.
+Line 169: The property name PromptChar in tBanco is invalid.
+Line 363: The property name _ExtentX in tCiF is invalid.
+Line 364: The property name _ExtentY in tCiF is invalid.
+Line 365: The property name _Version in tCiF is invalid.
+Line 368: The property name MaxLength in tCiF is invalid.
+Line 378: The property name Mask in tCiF is invalid.
+Line 379: The property name PromptChar in tCiF is invalid.
+Line 387: The property name _ExtentX in tRucF is invalid.
+Line 388: The property name _ExtentY in tRucF is invalid.
+Line 389: The property name _Version in tRucF is invalid.
+Line 392: The property name PromptInclude in tRucF is invalid.
+Line 393: The property name MaxLength in tRucF is invalid.
+Line 403: The property name Mask in tRucF is invalid.
+Line 404: The property name PromptChar in tRucF is invalid.
+Line 412: The property name _ExtentX in tCiC is invalid.
+Line 413: The property name _ExtentY in tCiC is invalid.
+Line 414: The property name _Version in tCiC is invalid.
+Line 417: The property name MaxLength in tCiC is invalid.
+Line 427: The property name Mask in tCiC is invalid.
+Line 428: The property name PromptChar in tCiC is invalid.
+Line 436: The property name _ExtentX in tRucC is invalid.
+Line 437: The property name _ExtentY in tRucC is invalid.
+Line 438: The property name _Version in tRucC is invalid.
+Line 441: The property name PromptInclude in tRucC is invalid.
+Line 442: The property name MaxLength in tRucC is invalid.
+Line 452: The property name Mask in tRucC is invalid.
+Line 453: The property name PromptChar in tRucC is invalid.

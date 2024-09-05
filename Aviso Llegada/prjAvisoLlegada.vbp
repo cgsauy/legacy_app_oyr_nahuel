@@ -1,0 +1,47 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\WINNT\System32\stdole2.tlb#OLE Automation
+Reference=*\G{64C3115F-60BC-11D3-B46E-827621868276}#5.6#0#..\..\..\..\AA Aplicaciones\System\AAConexion.exe#AAConexion
+Reference=*\G{DE30490D-85A2-11D5-A910-000021860458}#f.2#0#..\..\..\..\AA Aplicaciones\System\orCGSA.dll#orCGSA
+Reference=*\G{EE008642-64A8-11CE-920F-08002B369A33}#2.0#0#..\..\..\..\WINNT\System32\MSRDO20.DLL#Microsoft Remote Data Object 2.0
+Object={6CF96EEB-5F9F-11D3-B46E-827621868276}#2.1#0; AACombo.ocx
+Object={831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0; mscomctl.ocx
+Object={B443E3A5-0B4D-4B43-B11D-47B68DC130D7}#1.1#0; orArticulo.ocx
+Form=frmAviso.frm
+Module=modStart; modStart.bas
+Module=modConeccion; ..\..\..\AA Generales\modConeccion.bas
+Module=ModGlobales; ..\..\..\AA Generales\modGlobales.bas
+Object={C5DE3F80-3376-11D2-BAA4-04F205C10000}#1.0#0; VSFLEX6D.OCX
+IconForm="frmAviso"
+Startup="Sub Main"
+HelpFile=""
+Title="Aviso Llegada"
+ExeName32="AvisoLlegada.exe"
+Path32="..\..\..\Aplicaciones"
+Command32="M=347"
+Name="prjAvisoLlegada"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=5
+AutoIncrementVer=1
+ServerSupportFiles=0
+VersionCompanyName="Zureo Sofware"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+
+[MS Transaction Server]
+AutoRefresh=1

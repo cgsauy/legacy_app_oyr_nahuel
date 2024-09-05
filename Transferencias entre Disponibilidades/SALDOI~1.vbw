@@ -1,0 +1,6 @@
+ModFormularios = 0, 0, 0, 0, C
+modConeccion = 0, 0, 0, 0, C
+TransfDisponiblidades = 44, 44, 290, 390, , 66, 66, 433, 412, Z
+ModGlobales = 66, 66, 312, 412, C
+ModImportaciones = 66, 66, 312, 412, C
+ModTransDisp = 110, 110, 356, 456, C

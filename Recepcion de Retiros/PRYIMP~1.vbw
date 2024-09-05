@@ -1,0 +1,9 @@
+frmListado = 66, 66, 407, 412, Z, 22, 22, 363, 368, 
+modStart = 88, 88, 429, 434, 
+frmSetup = 0, 0, 0, 0, C, 44, 44, 385, 390, C
+ModFormularios = 0, 0, 0, 0, C
+modFechas = 0, 0, 0, 0, C
+ModGlobales = 0, 0, 0, 0, C
+modConeccion = 0, 0, 0, 0, C
+modListados = 0, 0, 0, 0, C
+modServicio = 88, 88, 429, 434, C

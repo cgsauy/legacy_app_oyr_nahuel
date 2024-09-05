@@ -1,0 +1,4 @@
+frmItems = 105, 106, 919, 565, C, 120, 42, 647, 565, C
+ModStart = 110, 110, 924, 569, C
+modConeccion = 0, 0, 0, 0, C
+ModGlobales = 0, 0, 0, 0, C

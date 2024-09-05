@@ -1,0 +1,8 @@
+modStart = 88, 88, 774, 347, 
+ModGlobales = 0, 0, 0, 0, C
+ModFormularios = 0, 0, 0, 0, C
+modConnect = 66, 66, 463, 412, C
+clsTipo = 110, 110, 472, 556, 
+MaTipo = 88, 88, 450, 534, , 132, 132, 819, 578, C
+ModLView = 0, 0, 0, 0, C
+frmTipoArticulo = 220, 220, 582, 666, , 198, 198, 560, 644, C

@@ -1,0 +1,10 @@
+frmMaCEmpresa = 66, 104, 954, 678, , 22, 22, 548, 470, C
+frmDireccion = 0, 0, 0, 0, C, 88, 88, 888, 536, C
+modStart = 66, 66, 450, 514, C
+ModGlobales = 66, 66, 783, 631, C
+ModImportaciones = 128, 103, 575, 679, C
+modDiccionario = 0, 0, 0, 0, C
+modLView = 0, 0, 0, 0, C
+modFechas = 0, 0, 0, 0, C
+modComun = 44, 44, 570, 492, C
+modConeccion = 110, 110, 494, 558, C

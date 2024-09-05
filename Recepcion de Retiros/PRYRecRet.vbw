@@ -1,0 +1,8 @@
+frmListado = 66, 66, 710, 425, , 22, 22, 363, 368, C
+modStart = 88, 88, 429, 434, 
+ModFormularios = 0, 0, 0, 0, C
+modFechas = 150, 150, 1362, 506, 
+ModGlobales = 0, 0, 0, 0, C
+modConeccion = 150, 150, 1087, 506, C
+modListados = 50, 50, 909, 475, 
+modServicio = 88, 88, 429, 434, C

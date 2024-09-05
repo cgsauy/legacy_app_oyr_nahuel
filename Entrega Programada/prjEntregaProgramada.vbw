@@ -1,0 +1,5 @@
+modStart = 66, 66, 594, 512, 
+modConnect = 0, 0, 800, 446, C
+ModFormularios = 0, 0, 0, 0, C
+ModGlobales = 0, 0, 0, 0, C
+frmEntProgramada = 92, 92, 670, 554, , 69, 69, 647, 531, C

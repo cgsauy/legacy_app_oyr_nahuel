@@ -1,0 +1,10 @@
+ModStart = 140, 92, 971, 668, C
+frmEMails = 25, 51, 1203, 831, , 132, 132, 946, 591, C
+modAutonumerico = 138, 103, 835, 679, C
+modConeccion = 125, 70, 823, 646, C
+ModGlobales = 138, 110, 864, 679, C
+frmMaServer = 61, 106, 1174, 824, , 110, 110, 924, 569, C
+frmListas = 54, 138, 901, 679, C, 125, 125, 791, 762, C
+modFechas = 129, 103, 576, 679, C
+modValidEmail = 73, 107, 942, 699, 
+modInstances = 129, 103, 832, 708, C

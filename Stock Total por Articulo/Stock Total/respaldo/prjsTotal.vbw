@@ -1,0 +1,11 @@
+ModFormularios = 22, 22, 664, 368, C
+ModGlobales = 136, 103, 583, 679, C
+modConeccion = 0, 0, 642, 346, C
+modListados = 0, 0, 0, 0, C
+modFechas = 88, 88, 730, 434, C
+frmSetup = 0, 0, 0, 0, C, -208, 84, 434, 430, C
+frmListado = -5, 2, 807, 585, , 88, 88, 418, 434, C
+ModStart = -40, 31, 747, 548, 
+modConstantesFacturacion = 132, 132, 774, 478, 
+modExplorer = 88, 88, 730, 434, C
+clsStockTotal = 110, 110, 482, 456, Z

@@ -1,0 +1,12 @@
+modConeccion = 110, 110, 533, 386, C
+modFechas = 0, 0, 423, 276, C
+ModGlobales = 0, 0, 0, 0, C
+ModLView = 0, 0, 0, 0, C
+modComun = 0, 0, 423, 276, 
+modComercio = 22, 22, 445, 298, C
+modStock = 66, 66, 752, 342, C
+frmListado = 88, 88, 451, 434, Z, 110, 110, 473, 456, 
+modStart = 0, 0, 0, 0, C
+frmSetup = 0, 0, 0, 0, C, 132, 132, 495, 478, C
+modListados = 0, 0, 0, 0, C
+ModFormularios = 0, 0, 0, 0, C

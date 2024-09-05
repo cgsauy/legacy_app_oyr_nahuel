@@ -1,0 +1,10 @@
+frmListado = 41, 211, 994, 707, , 0, 0, 0, 0, 
+modStart = 128, 103, 864, 679, C
+ModFormularios = 128, 103, 575, 679, C
+ModGlobales = 128, 103, 575, 679, C
+modListados = 0, 0, 0, 0, C
+modConeccion = 0, 0, 0, 0, C
+frmSetup = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+modFechas = 128, 103, 575, 679, C
+modComun = 128, 103, 575, 679, C
+modComercio = 258, 83, 891, 659, C

@@ -1,0 +1,10 @@
+frmCuentas = 42, 58, 1002, 672, , 0, 0, 0, 0, 
+modStart = 20, 127, 965, 718, C
+modConeccion = 0, 0, 0, 0, C
+modFechas = 0, 0, 0, 0, C
+ModGlobales = 35, 103, 958, 679, C
+ModFormularios = 0, 0, 0, 0, C
+modListados = 0, 0, 0, 0, C
+modComun = 35, 103, 482, 679, C
+modComercio = 35, 103, 482, 679, C
+frmSetup = 0, 0, 0, 0, C, 0, 0, 0, 0, C

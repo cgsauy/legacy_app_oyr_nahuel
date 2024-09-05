@@ -1,0 +1,8 @@
+frmMaColect = 110, 110, 452, 456, , 22, 22, 364, 368, C
+ModFormularios = 0, 0, 0, 0, C
+ModGlobales = 22, 22, 408, 298, C
+ModStart = 132, 132, 474, 478, C
+modConeccion = 66, 66, 445, 412, 
+modFechas = 66, 66, 452, 342, 
+modComun = 110, 110, 452, 456, C
+modComercio = 132, 132, 538, 478, 

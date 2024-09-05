@@ -1,0 +1,11 @@
+Contador = 22, 22, 401, 368, C
+modFechas = 125, 125, 1337, 462, C
+modStock = 100, 100, 1262, 525, C
+ModCrystal = 22, 21, 664, 368, C
+modStart = 66, 66, 445, 412, C
+ModGlobales = 0, 0, 642, 346, C
+modComercio = 110, 110, 752, 456, C
+modComun = 110, 110, 489, 456, C
+modConeccion = 100, 100, 823, 525, C
+frmChangeNameDoc = 22, 22, 401, 368, , 22, 22, 329, 368, C
+clsImpresoraTicketsCnfg = 0, 0, 0, 0, C

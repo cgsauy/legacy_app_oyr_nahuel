@@ -1,0 +1,13 @@
+frmListado = 22, 99, 947, 721, C, 44, 44, 432, 492, C
+modStart = 92, 172, 931, 620, C
+modComun = 132, 132, 839, 580, C
+modComercio = 137, 103, 584, 679, C
+modConeccion = 138, 103, 903, 679, C
+ModFormularios = 0, 0, 0, 0, C
+ModGlobales = 130, 103, 577, 679, C
+modListados = 129, 103, 576, 679, C
+frmSetup = 129, 103, 576, 679, C, 88, 88, 795, 536, C
+modCaja = 107, 78, 952, 646, C
+modFechas = 35, 103, 863, 679, C
+modMaeDisponibilidad = 139, 103, 794, 679, C
+frmDetalleTM = 25, 126, 949, 679, C, 0, 0, 0, 0, C

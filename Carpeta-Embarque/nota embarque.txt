@@ -1,0 +1,137 @@
+        'Recorro todos los documentos que tienen saldo mayor que cero para poder ir asignando la nota.
+        Do While Not RsAuxE.EOF
+        
+            aValorTC = aValorTC + RsAuxE!ComTC
+            aCantTC = aCantTC + 1
+            
+            'si tiene saldo no esta paga la divisa
+            If RsAuxE!ComSaldo > aValor Then
+                'Updateo compra y hago una nota por el importe que estoy descontando.
+                Cons = "Update Compra Set ComSaldo = ComSaldo - " & aValor _
+                                & ", ComFModificacion = '" & Format(gFechaServidor, sqlFormatoFH) & "'" _
+                    & " Where ComCodigo = " & RsAuxE!ComCodigo
+                cBase.Execute (Cons)
+                'Asigancion de la nota.
+                Cons = "Insert Into CompraPago (CPaDocASaldar, CPaDocQSalda, CPaAmortizacion) Values( " _
+                    & RsAuxE!ComCodigo & ", " & IDNota & " , " & aValor * -1 & ")"
+                cBase.Execute (Cons)
+                aValor = 0
+                
+            ElseIf RsAuxE!ComSaldo > 0 Then
+            
+                'Updateo compra y hago una nota por el importe que estoy descontando.
+                Cons = "Update Compra Set ComSaldo = 0 " _
+                    & ", ComFModificacion = '" & Format(gFechaServidor, sqlFormatoFH) & "'" _
+                    & " Where ComCodigo = " & RsAuxE!ComCodigo
+                cBase.Execute (Cons)
+                
+                'Resto lo que estoy descontando.
+                aValor = aValor - RsAuxE!ComSaldo
+                
+        ACA CAMBIA POR COMPROBANTEPAGO
+        
+                'Asigancion de la nota.
+                Cons = "Insert Into CompraPago (CPaDocASaldar, CPaDocQSalda, CPaAmortizacion) Values( " _
+                    & RsAuxE!ComCodigo & ", " & IDNota & " , " & RsAuxE!ComSaldo * -1 & ")"
+                cBase.Execute (Cons)
+                
+            ElseIf RsAuxE!ComSaldo = 0 And sDivisaPaga Then
+                'Tengo el credito, para el mismo levanto todos sus recibos de pago
+                'Para cada valor de amortizacion voy restando el avalor y asigno la nota al credito por lo que le saque al recibo.
+                aAmortiza = 0
+                
+                'Me devuelve los recibos que pagaron el credito.
+                Cons = "Select * From CompraPago, Compra " _
+                    & " Where CPADocASaldar = " & RsAuxE!ComCodigo _
+                    & " And ComTipoDocumento = " & TipoDocumento.CompraReciboDePago _
+                    & " And CPADocQSalda = ComCodigo"
+                Set rsDC = cBase.OpenResultset(Cons, rdOpenDynamic, rdConcurValues)
+                'Puedo tener más de un recibo para este credito.
+                Do While Not rsDC.EOF
+                    If rsDC!CPaAmortizacion > aValor Then
+                        Cons = "Update CompraPago Set CPaAmortizacion = CPaAmortizacion - " & aValor _
+                            & " Where CPaDocASaldar = " & rsDC!CPaDocASaldar _
+                            & " And CPaDocQSalda = " & rsDC!CPaDocQSalda _
+                            & " And CPaAmortizacion = " & rsDC!CPaAmortizacion
+                        cBase.Execute (Cons)
+                        
+                        If CreditoNuevo > 0 Then
+                            'Tengo que validar si ya no esta ingresado.
+                            Cons = "Select * From CompraPago " _
+                                & " Where CPaDocASaldar = " & CreditoNuevo _
+                                & " And CPaDocQSalda = " & rsDC!CPaDocQSalda
+                            Set rsCP = cBase.OpenResultset(Cons, rdOpenDynamic, rdConcurValues)
+                            If rsCP.EOF Then
+                                rsCP.AddNew
+                                rsCP!CPaDocASaldar = CreditoNuevo
+                                rsCP!CPaDocQSalda = rsDC!CPaDocQSalda
+                                rsCP!CPaAmortizacion = aValor
+                            Else
+                                rsCP.Edit
+                                rsCP!CPaAmortizacion = aValor + rsCP!CPaAmortizacion
+                            End If
+                            rsCP.Update
+                            rsCP.Close
+'                            Cons = "Insert Into CompraPago (CPaDocASaldar, CPaDocQSalda, CPaAmortizacion) Values ( " & CreditoNuevo _
+                                & ", " & rsDC!CPaDocQSalda & ", " & aValor & ")"
+'                            cBase.Execute (Cons)
+                        End If
+                        
+                        aAmortiza = aAmortiza + aValor
+                        aValor = 0
+                    ElseIf rsDC!CPaAmortizacion > 0 Then
+                        Cons = "Update CompraPago Set CPaAmortizacion = 0 " _
+                            & " Where CPaDocASaldar = " & rsDC!CPaDocASaldar _
+                            & " And CPaDocQSalda = " & rsDC!CPaDocQSalda _
+                            & " And CPaAmortizacion = " & rsDC!CPaAmortizacion
+                        cBase.Execute (Cons)
+                        If CreditoNuevo > 0 Then
+                            'Tengo que validar si ya no esta ingresado.
+                            Cons = "Select * From CompraPago " _
+                                & " Where CPaDocASaldar = " & CreditoNuevo _
+                                & " And CPaDocQSalda = " & rsDC!CPaDocQSalda
+                            Set rsCP = cBase.OpenResultset(Cons, rdOpenDynamic, rdConcurValues)
+                            If rsCP.EOF Then
+                                rsCP.AddNew
+                                rsCP!CPaDocASaldar = CreditoNuevo
+                                rsCP!CPaDocQSalda = rsDC!CPaDocQSalda
+                                rsCP!CPaAmortizacion = rsDC!CPaAmortizacion
+                            Else
+                                rsCP.Edit
+                                rsCP!CPaAmortizacion = rsDC!CPaAmortizacion + rsCP!CPaAmortizacion
+                            End If
+                            rsCP.Update
+                            rsCP.Close
+'                            Cons = "Insert Into CompraPago (CPaDocASaldar, CPaDocQSalda, CPaAmortizacion) Values ( " & CreditoNuevo _
+                                & ", " & rsDC!CPaDocQSalda & ", " & rsDC!CPaAmortizacion & ")"
+ '                           cBase.Execute (Cons)
+                        End If
+                        aValor = aValor - rsDC!CPaAmortizacion
+                        aAmortiza = aAmortiza + rsDC!CPaAmortizacion
+                    End If
+                    
+                    If aValor = 0 Then
+                        Cons = "Update Compra Set ComTC = " & aValorTC / aCantTC _
+                            & " Where ComCodigo = " & CreditoNuevo
+                        cBase.Execute (Cons)
+                        'Cambio el tc de la nota también.
+                        Cons = "Update Compra Set ComTC = " & aValorTC / aCantTC _
+                            & " Where ComCodigo = " & IDNota
+                        cBase.Execute (Cons)
+                        Exit Do
+                    End If
+                    rsDC.MoveNext
+                Loop
+                rsDC.Close
+                'Asigancion de la nota.
+                Cons = "Insert Into CompraPago (CPaDocASaldar, CPaDocQSalda, CPaAmortizacion) Values( " _
+                    & RsAuxE!ComCodigo & ", " & IDNota & " , " & aAmortiza * -1 & ")"
+                cBase.Execute (Cons)
+            End If
+            RsAuxE.MoveNext
+            If aValor = 0 Then Exit Do
+        Loop
+    Else
+        'Dejo como esta porque lo que me devuelve aca tiene que ser por un contado.
+    End If
+    RsAuxE.Close

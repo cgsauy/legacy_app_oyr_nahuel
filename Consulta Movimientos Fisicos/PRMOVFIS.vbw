@@ -1,0 +1,9 @@
+frmSetup = 0, 0, 0, 0, C, 22, 22, 465, 298, C
+DeMovimientoStock = 124, 183, 567, 459, , 110, 110, 553, 386, C
+ModFormularios = 0, 0, 0, 0, C
+ModGlobales = 66, 66, 452, 341, C
+modListados = 44, 44, 423, 390, C
+frmMovFisico = 88, 88, 509, 357, , 22, 22, 686, 586, C
+ModStart = 110, 110, 494, 456, 
+modConstantesFacturacion = 88, 88, 509, 357, 
+modConnect = 0, 0, 0, 0, C

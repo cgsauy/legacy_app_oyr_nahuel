@@ -1,0 +1,7 @@
+frmEntRapida = 44, 58, 439, 400, , 22, 29, 417, 371, C
+modProyecto = 22, 29, 417, 371, 
+InUsuario = 0, 0, 395, 342, C, 110, 145, 505, 487, C
+clsUsuario = 66, 87, 461, 429, C
+modPersistencia = 88, 116, 483, 458, 
+modStock = 88, 116, 483, 458, 
+ModFormularios = 110, 110, 461, 456, C

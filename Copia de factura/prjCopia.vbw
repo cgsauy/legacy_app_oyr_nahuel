@@ -1,0 +1,9 @@
+frmCopia = 87, 84, 1223, 864, , 220, 108, 668, 460, C
+modStart = 112, 133, 1189, 913, 
+modComun = 122, 117, 936, 576, C
+modConeccion = 132, 132, 946, 591, C
+ModGlobales = 129, 135, 943, 594, C
+modContador = 154, 154, 968, 613, C
+ModCrystal = 41, 103, 996, 705, C
+clsCnfgImpresora = 50, 50, 725, 475, 
+frmDondeImprimo = 75, 75, 750, 500, , 150, 150, 825, 575, C

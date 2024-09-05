@@ -1,0 +1,6 @@
+ModGlobales = 44, 44, 686, 390, C
+modStart = 22, 22, 443, 291, 
+ModFormularios = 0, 0, 0, 0, C
+modConnect = 154, 154, 527, 500, C
+frmEtiquetas = 150, 150, 858, 575, , 75, 75, 783, 500, C
+clsImpTicketsCnfg = 175, 175, 883, 600, 

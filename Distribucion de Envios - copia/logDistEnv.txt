@@ -1,0 +1,609 @@
+02/10 10:25	Info	Inicio la aplicación
+02/10 10:40	Info	Inicio la aplicación
+02/10 10:44	Debug	Código generado = 83603
+02/10 10:44	Debug	Envío Remito ID=10771039 Remito= A-15
+02/10 10:44	Debug	Envío Remito ID=10771041 Remito= A-16
+02/10 10:44	Debug	Envío documento ID=10771040 Número=A-44292
+29/10 13:10	Info	Inicio la aplicación
+29/10 13:11	Info	Inicio la aplicación
+30/10 15:25	Info	Inicio la aplicación
+30/10 15:26	Debug	Código generado = 83604
+30/10 15:26	Debug	Envío documento ID=10771051 Número=A-44294
+30/10 15:27	Debug	Envío documento ID=10771052 Número=A-44295
+30/10 15:28	Error	documento ID=10771052 Error: Referencia a objeto no establecida como instancia de un objeto.
+30/10 15:28	Debug	Envío documento ID=10771053 Número=A-44296
+30/10 15:28	Error	documento ID=10771053 Error: Referencia a objeto no establecida como instancia de un objeto.
+30/10 15:28	Debug	Envío documento ID=10771054 Número=A-44297
+30/10 15:28	Error	documento ID=10771054 Error: Referencia a objeto no establecida como instancia de un objeto.
+30/10 15:28	Debug	Envío documento ID=10771056 Número=A-44298
+30/10 15:28	Error	documento ID=10771056 Error: Referencia a objeto no establecida como instancia de un objeto.
+30/10 15:28	Debug	Envío documento ID=10771057 Número=A-44299
+30/10 15:28	Error	documento ID=10771057 Error: Referencia a objeto no establecida como instancia de un objeto.
+30/10 15:29	Debug	Envío Remito ID=10771055 Remito= A-17
+30/10 15:29	Debug	Envío Remito ID=10771062 Remito= A-18
+17/11 17:18	Info	Inicio la aplicación
+19/11 13:52	Info	Inicio la aplicación
+19/11 14:57	Info	Inicio la aplicación
+19/11 15:01	Info	Inicio la aplicación
+19/11 18:23	Info	Inicio la aplicación
+19/11 18:28	Info	Inicio la aplicación
+19/11 18:35	Info	Inicio la aplicación
+19/11 18:37	Info	Inicio la aplicación
+19/11 18:38	Error	documento ID=10771138 Error: Referencia a objeto no establecida como instancia de un objeto.
+20/11 10:10	Info	Inicio la aplicación
+20/11 10:10	Debug	Código generado = 83612
+20/11 10:10	Debug	Envío documento ID=10771145 Número=A-36642
+20/11 10:36	Info	Inicio la aplicación
+20/11 10:37	Error	documento ID=10771138 Error: Referencia a objeto no establecida como instancia de un objeto.
+20/11 10:50	Info	Inicio la aplicación
+20/11 10:51	Error	documento ID=10771138 Error: Referencia a objeto no establecida como instancia de un objeto.
+20/11 10:54	Info	Inicio la aplicación
+20/11 10:55	Error	documento ID=10771138 Error: Referencia a objeto no establecida como instancia de un objeto.
+01/12 15:45	Info	Inicio la aplicación
+02/12 10:15	Info	Inicio la aplicación
+02/12 10:18	Info	Inicio la aplicación
+02/12 11:27	Info	Inicio la aplicación
+02/12 11:55	Info	Inicio la aplicación
+02/12 12:04	Info	Inicio la aplicación
+02/12 12:09	Debug	Código generado = 83620
+02/12 14:51	Info	Inicio la aplicación
+02/12 15:05	Info	Inicio la aplicación
+03/12 08:32	Info	Inicio la aplicación
+03/12 08:34	Info	Inicio la aplicación
+03/12 08:35	Info	Inicio la aplicación
+03/12 08:36	Info	Inicio la aplicación
+03/12 08:36	Info	Inicio la aplicación
+03/12 08:39	Info	Inicio la aplicación
+03/12 08:51	Info	Inicio la aplicación
+03/12 09:23	Info	Inicio la aplicación
+03/12 09:26	Debug	Código generado = 83621
+03/12 11:49	Info	Inicio la aplicación
+03/12 14:36	Debug	Código generado = 83622
+05/12 17:09	Info	Inicio la aplicación
+05/12 17:18	Info	Inicio la aplicación
+05/12 17:19	Info	Inicio la aplicación
+05/12 17:19	Info	Inicio la aplicación
+05/12 17:20	Info	Inicio la aplicación
+05/12 17:29	Info	Inicio la aplicación
+05/12 17:31	Error	documento ID=10771299 Error: Automation error
+05/12 17:32	Error	documento ID=10771300 Error: Automation error
+05/12 17:44	Info	Inicio la aplicación
+05/12 17:58	Info	Inicio la aplicación
+05/12 18:26	Info	Inicio la aplicación
+05/12 18:26	Info	Inicio la aplicación
+05/12 18:38	Info	Inicio la aplicación
+05/12 18:58	Info	Inicio la aplicación
+08/12 10:30	Info	Inicio la aplicación
+08/12 10:40	Info	Inicio la aplicación
+08/12 10:40	Info	Inicio la aplicación
+08/12 10:43	Info	Inicio la aplicación
+08/12 10:57	Info	Inicio la aplicación
+08/12 11:43	Info	Inicio la aplicación
+08/12 13:19	Info	Inicio la aplicación
+08/12 13:22	Info	Inicio la aplicación
+08/12 13:32	Info	Inicio la aplicación
+08/12 15:14	Info	Inicio la aplicación
+15/12 12:20	Info	Inicio la aplicación
+15/12 12:27	Debug	Código generado = 83623
+15/12 12:36	Info	Inicio la aplicación
+15/12 12:36	Debug	Código generado = 83624
+15/12 13:04	Info	Inicio la aplicación
+15/12 13:18	Info	Inicio la aplicación
+15/12 13:18	Info	Inicio la aplicación
+17/12 17:57	Info	Inicio la aplicación
+17/12 18:08	Info	Inicio la aplicación
+18/12 12:04	Info	Inicio la aplicación
+18/12 12:07	Info	Inicio la aplicación
+18/12 12:09	Info	Inicio la aplicación
+18/12 16:52	Info	Inicio la aplicación
+05/01 09:24	Info	Inicio la aplicación
+05/01 09:25	Info	Inicio la aplicación
+05/01 09:26	Info	Inicio la aplicación
+05/01 09:26	Info	Inicio la aplicación
+05/01 09:26	Info	Inicio la aplicación
+05/01 09:42	Info	Inicio la aplicación
+05/01 10:01	Info	Inicio la aplicación
+05/01 10:06	Info	Inicio la aplicación
+05/01 10:07	Info	Inicio la aplicación
+05/01 10:11	Info	Inicio la aplicación
+05/01 10:14	Info	Inicio la aplicación
+05/01 10:32	Info	Inicio la aplicación
+05/01 10:38	Debug	Código generado = 83627
+13/02 12:52	Info	Inicio la aplicación
+13/02 13:00	Error	documento ID=11260546 Error: Referencia a objeto no establecida como instancia de un objeto.
+13/02 13:02	Info	Inicio la aplicación
+13/02 13:02	Error	documento ID=11259295 Error: Referencia a objeto no establecida como instancia de un objeto.
+13/02 13:02	Error	documento ID=11259068 Error: Referencia a objeto no establecida como instancia de un objeto.
+13/02 13:04	Info	Inicio la aplicación
+13/02 13:05	Error	documento ID=11259295 Error: Referencia a objeto no establecida como instancia de un objeto.
+13/02 13:14	Info	Inicio la aplicación
+13/02 13:16	Error	documento ID=11235133 Error: Referencia a objeto no establecida como instancia de un objeto.
+13/02 13:16	Info	Inicio la aplicación
+14/02 11:33	Info	Inicio la aplicación
+24/07 10:05	Info	Inicio la aplicación
+24/07 10:11	Info	Inicio la aplicación
+20/10 08:19	Info	Inicio la aplicación
+01/02 16:27	Info	Inicio la aplicación
+01/02 16:32	Info	Inicio la aplicación
+01/02 16:37	Info	Inicio la aplicación
+01/02 16:58	Info	Inicio la aplicación
+01/02 17:29	Info	Inicio la aplicación
+01/02 17:39	Info	Inicio la aplicación
+02/02 09:21	Info	Inicio la aplicación
+02/02 09:26	Info	Inicio la aplicación
+02/02 09:28	Debug	Código generado = 95002
+02/02 12:57	Info	Inicio la aplicación
+02/02 15:19	Info	Inicio la aplicación
+02/02 15:33	Info	Inicio la aplicación
+02/02 15:33	Info	Inicio la aplicación
+02/02 16:57	Info	Inicio la aplicación
+02/02 17:10	Info	Inicio la aplicación
+20/02 10:10	Info	Inicio la aplicación
+20/02 10:17	Info	Inicio la aplicación
+20/02 10:19	Info	Inicio la aplicación
+20/02 10:19	Debug	Código generado = 95003
+20/02 10:36	Info	Inicio la aplicación
+04/04 12:12	Info	Inicio la aplicación
+04/04 12:37	Info	Inicio la aplicación
+28/04 15:54	Info	Inicio la aplicación
+28/04 16:00	Info	Inicio la aplicación
+08/08 11:10	Info	Inicio la aplicación
+31/08 09:22	Info	Inicio la aplicación
+31/08 09:23	Info	Inicio la aplicación
+31/08 09:25	Info	Inicio la aplicación
+31/08 09:28	Info	Inicio la aplicación
+31/08 09:29	Info	Inicio la aplicación
+31/08 09:41	Info	Inicio la aplicación
+31/08 09:47	Info	Inicio la aplicación
+31/08 09:54	Info	Inicio la aplicación
+31/08 10:00	Info	Inicio la aplicación
+31/08 10:01	Info	Inicio la aplicación
+31/08 10:03	Info	Inicio la aplicación
+31/08 10:04	Info	Inicio la aplicación
+31/08 10:16	Info	Inicio la aplicación
+31/08 10:18	Info	Inicio la aplicación
+31/08 10:27	Info	Inicio la aplicación
+31/08 10:50	Info	Inicio la aplicación
+31/08 11:45	Info	Inicio la aplicación
+31/08 11:45	Info	Inicio la aplicación
+31/08 11:47	Info	Inicio la aplicación
+31/08 11:48	Info	Inicio la aplicación
+31/08 12:06	Info	Inicio la aplicación
+31/08 12:47	Info	Inicio la aplicación
+31/08 12:57	Info	Inicio la aplicación
+31/08 13:33	Info	Inicio la aplicación
+31/08 14:29	Info	Inicio la aplicación
+31/08 14:29	Info	Inicio la aplicación
+31/08 17:27	Info	Inicio la aplicación
+31/08 17:27	Info	Inicio la aplicación
+31/08 17:30	Info	Inicio la aplicación
+31/08 17:45	Error	documento ID=12136185 Error: Inicializo c/xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+01/09 10:23	Info	Inicio la aplicación
+01/09 14:30	Info	Inicio la aplicación
+07/09 10:52	Info	Inicio la aplicación
+07/09 12:55	Info	Inicio la aplicación
+07/09 12:56	Error	documento ID=12136184 Error: Inicializo c/xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+07/09 16:23	Info	Inicio la aplicación
+07/09 17:03	Info	Inicio la aplicación
+07/09 17:05	Info	Inicio la aplicación
+07/09 18:30	Info	Inicio la aplicación
+07/09 18:35	Info	Inicio la aplicación
+07/09 18:37	Info	Inicio la aplicación
+07/09 18:38	Info	Inicio la aplicación
+07/09 18:59	Info	Inicio la aplicación
+08/09 10:24	Info	Inicio la aplicación
+08/09 12:00	Info	Inicio la aplicación
+08/09 13:19	Info	Inicio la aplicación
+09/09 12:18	Info	Inicio la aplicación
+10/09 09:56	Info	Inicio la aplicación
+10/09 10:04	Info	Inicio la aplicación
+10/09 10:17	Info	Inicio la aplicación
+10/09 11:10	Info	Inicio la aplicación
+12/09 09:37	Info	Inicio la aplicación
+12/09 09:45	Info	Inicio la aplicación
+12/09 10:28	Info	Inicio la aplicación
+12/09 11:38	Info	Inicio la aplicación
+12/09 14:23	Info	Inicio la aplicación
+13/09 09:35	Info	Inicio la aplicación
+13/09 09:38	Info	Inicio la aplicación
+13/09 09:46	Info	Inicio la aplicación
+13/09 09:49	Info	Inicio la aplicación
+13/09 09:57	Info	Inicio la aplicación
+13/09 09:58	Info	Inicio la aplicación
+13/09 09:58	Info	Inicio la aplicación
+13/09 09:59	Info	Inicio la aplicación
+13/09 10:00	Info	Inicio la aplicación
+19/09 15:01	Info	Inicio la aplicación
+19/09 18:20	Info	Inicio la aplicación
+20/09 09:26	Info	Inicio la aplicación
+20/09 10:20	Info	Inicio la aplicación
+20/09 11:14	Info	Inicio la aplicación
+20/09 12:27	Info	Inicio la aplicación
+20/09 12:50	Info	Inicio la aplicación
+28/09 10:13	Info	Inicio la aplicación
+28/09 10:17	Info	Inicio la aplicación
+28/09 10:18	Error	documento ID=12136276 Error: ImprimirEFactura: Error seteando la impresora. Verifique que los datos de configuración sean los correcto.
+28/09 10:18	Error	documento ID=12136277 Error: ImprimirEFactura: Error seteando la impresora. Verifique que los datos de configuración sean los correcto.
+28/09 10:18	Error	documento ID=12136281 Error: ImprimirEFactura: Error seteando la impresora. Verifique que los datos de configuración sean los correcto.
+28/09 10:18	Error	documento ID=12136280 Error: ImprimirEFactura: Error seteando la impresora. Verifique que los datos de configuración sean los correcto.
+28/09 10:18	Error	documento ID=12136282 Error: ImprimirEFactura: Error seteando la impresora. Verifique que los datos de configuración sean los correcto.
+28/09 10:20	Info	Inicio la aplicación
+28/09 10:41	Info	Inicio la aplicación
+28/09 11:58	Info	Inicio la aplicación
+28/09 12:07	Info	Inicio la aplicación
+28/09 12:30	Info	Inicio la aplicación
+28/09 13:15	Info	Inicio la aplicación
+13/10 11:42	Info	Inicio la aplicación
+13/10 11:45	Error	documento ID=12136366 Error: ImprimirEFactura: Error seteando la impresora. Verifique que los datos de configuración sean los correcto.
+13/10 11:45	Error	documento ID=12136359 Error: ImprimirEFactura: Error seteando la impresora. Verifique que los datos de configuración sean los correcto.
+13/10 11:45	Error	documento ID=12136357 Error: ImprimirEFactura: Error seteando la impresora. Verifique que los datos de configuración sean los correcto.
+13/10 11:45	Error	documento ID=12136367 Error: ImprimirEFactura: Error seteando la impresora. Verifique que los datos de configuración sean los correcto.
+13/10 11:45	Error	documento ID=12136355 Error: ImprimirEFactura: Error seteando la impresora. Verifique que los datos de configuración sean los correcto.
+13/10 11:45	Error	documento ID=12136356 Error: ImprimirEFactura: Error seteando la impresora. Verifique que los datos de configuración sean los correcto.
+13/10 11:45	Error	documento ID=12136368 Error: ImprimirEFactura: Error seteando la impresora. Verifique que los datos de configuración sean los correcto.
+13/10 11:45	Error	documento ID=12136353 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+13/10 11:45	Error	documento ID=12136354 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+13/10 11:45	Error	documento ID=12136369 Error: ImprimirEFactura: Error seteando la impresora. Verifique que los datos de configuración sean los correcto.
+13/10 16:31	Info	Inicio la aplicación
+13/10 16:34	Info	Inicio la aplicación
+13/10 16:37	Info	Inicio la aplicación
+13/10 17:12	Info	Inicio la aplicación
+13/10 17:13	Info	Inicio la aplicación
+13/10 17:14	Info	Inicio la aplicación
+13/10 18:15	Info	Inicio la aplicación
+15/10 10:32	Info	Inicio la aplicación
+15/10 10:38	Info	Inicio la aplicación
+01/11 11:37	Info	Inicio la aplicación
+01/11 11:41	Info	Inicio la aplicación
+12/11 12:52	Info	Inicio la aplicación
+14/11 09:46	Info	Inicio la aplicación
+15/11 14:37	Info	Inicio la aplicación
+15/11 15:09	Info	Inicio la aplicación
+15/11 15:32	Info	Inicio la aplicación
+15/11 15:42	Info	Inicio la aplicación
+15/11 15:45	Info	Inicio la aplicación
+16/11 09:30	Info	Inicio la aplicación
+16/11 09:39	Info	Inicio la aplicación
+16/11 09:43	Info	Inicio la aplicación
+16/11 11:47	Info	Inicio la aplicación
+01/12 09:16	Info	Inicio la aplicación
+19/12 17:36	Info	Inicio la aplicación
+19/12 17:40	Info	Inicio la aplicación
+28/01 09:30	Info	Inicio la aplicación
+30/01 08:04	Info	Inicio la aplicación
+30/01 08:17	Info	Inicio la aplicación
+30/01 08:40	Info	Inicio la aplicación
+30/01 09:03	Info	Inicio la aplicación
+27/03 12:59	Info	Inicio la aplicación
+27/03 13:03	Info	Inicio la aplicación
+27/03 13:09	Error	documento ID=13302216 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+10/04 14:10	Info	Inicio la aplicación
+28/04 16:31	Info	Inicio la aplicación
+13/06 10:13	Info	Inicio la aplicación
+13/06 10:24	Info	Inicio la aplicación
+14/07 13:25	Info	Inicio la aplicación
+14/07 13:25	Info	Inicio la aplicación
+14/07 13:48	Info	Inicio la aplicación
+22/07 10:18	Info	Inicio la aplicación
+24/07 12:39	Info	Inicio la aplicación
+24/07 14:11	Info	Inicio la aplicación
+24/07 14:16	Info	Inicio la aplicación
+24/07 14:18	Info	Inicio la aplicación
+24/07 14:22	Info	Inicio la aplicación
+16/08 09:25	Info	Inicio la aplicación
+16/08 10:37	Info	Inicio la aplicación
+18/08 10:57	Info	Inicio la aplicación
+22/08 09:28	Info	Inicio la aplicación
+23/08 11:40	Info	Inicio la aplicación
+23/08 16:10	Error	documento ID=12963707 Error: ImprimirEFactura: La configuración para obtener acceso a la impresora 'DepColonia' no es válida.
+23/08 16:10	Error	documento ID=12966180 Error: ImprimirEFactura: La configuración para obtener acceso a la impresora 'DepColonia' no es válida.
+23/08 16:10	Error	documento ID=12958629 Error: ImprimirEFactura: La configuración para obtener acceso a la impresora 'DepColonia' no es válida.
+23/08 16:10	Error	documento ID=12963170 Error: ImprimirEFactura: La configuración para obtener acceso a la impresora 'DepColonia' no es válida.
+23/08 16:10	Error	documento ID=12963410 Error: ImprimirEFactura: La configuración para obtener acceso a la impresora 'DepColonia' no es válida.
+15/09 09:03	Info	Inicio la aplicación
+15/09 09:03	Info	Inicio la aplicación
+15/09 09:05	Info	Inicio la aplicación
+15/09 09:05	Info	Inicio la aplicación
+27/09 10:57	Info	Inicio la aplicación
+27/09 11:12	Info	Inicio la aplicación
+30/09 10:11	Info	Inicio la aplicación
+07/10 09:06	Info	Inicio la aplicación
+07/10 09:10	Info	Inicio la aplicación
+11/10 16:16	Info	Inicio la aplicación
+30/10 18:16	Info	Inicio la aplicación
+14/11 12:17	Info	Inicio la aplicación
+27/11 10:34	Info	Inicio la aplicación
+27/11 10:52	Info	Inicio la aplicación
+27/11 10:58	Info	Inicio la aplicación
+27/11 11:03	Info	Inicio la aplicación
+27/11 11:03	Info	Inicio la aplicación
+27/11 11:04	Info	Inicio la aplicación
+27/11 11:05	Info	Inicio la aplicación
+27/11 11:05	Info	Inicio la aplicación
+27/11 11:06	Info	Inicio la aplicación
+27/11 11:21	Info	Inicio la aplicación
+27/11 11:24	Info	Inicio la aplicación
+27/11 11:57	Info	Inicio la aplicación
+28/11 09:43	Info	Inicio la aplicación
+28/11 09:44	Info	Inicio la aplicación
+28/11 09:45	Error	documento ID=13967102 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+28/11 09:45	Error	documento ID=13967102 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+28/11 09:45	Error	documento ID=13967105 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+28/11 09:45	Error	documento ID=13965303 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+28/11 09:45	Error	documento ID=13965304 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+28/11 09:45	Error	documento ID=13967103 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+28/11 09:45	Error	documento ID=13967095 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+28/11 10:32	Info	Inicio la aplicación
+28/11 10:33	Error	documento ID=13964360 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+28/11 10:33	Error	documento ID=13967106 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+28/11 10:33	Error	documento ID=13967107 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+28/11 10:33	Error	documento ID=13967108 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+28/11 12:04	Error	documento ID=13952173 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+28/11 12:06	Error	documento ID=13967109 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+28/11 12:06	Error	documento ID=13967110 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+28/11 12:06	Error	documento ID=13967111 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+29/11 09:10	Info	Inicio la aplicación
+29/11 10:34	Error	documento ID=13969250 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+29/11 10:34	Error	documento ID=13969250 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+29/11 10:34	Error	documento ID=13969253 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+29/11 10:34	Error	documento ID=13969254 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+29/11 10:34	Error	documento ID=13969252 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+29/11 10:34	Error	documento ID=13965488 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+29/11 10:34	Error	documento ID=13965489 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+29/11 10:34	Error	documento ID=13958306 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+29/11 10:34	Error	documento ID=13969247 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+29/11 10:34	Error	documento ID=13969248 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+29/11 10:34	Error	documento ID=13969249 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+29/11 17:04	Info	Inicio la aplicación
+29/11 17:13	Error	documento ID=13969256 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+29/11 17:13	Error	documento ID=13969257 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+29/11 17:13	Error	documento ID=13969258 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+29/11 17:13	Error	documento ID=13969255 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+29/11 17:13	Error	documento ID=13969255 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+29/11 17:13	Error	documento ID=13969259 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+29/11 17:13	Error	documento ID=13969260 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+29/11 17:13	Error	documento ID=13968451 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+30/11 12:57	Info	Inicio la aplicación
+30/11 12:58	Error	documento ID=13971473 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+30/11 12:58	Error	documento ID=13971473 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+30/11 12:58	Error	documento ID=13971478 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+30/11 12:58	Error	documento ID=13971479 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+30/11 12:58	Error	documento ID=13971475 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+30/11 12:58	Error	documento ID=13971476 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+30/11 12:58	Error	documento ID=13971477 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+30/11 12:58	Error	documento ID=13971480 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+30/11 13:05	Error	documento ID=13971481 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+30/11 15:10	Error	documento ID=13971482 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+30/11 15:10	Error	documento ID=13971483 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+30/11 15:10	Error	documento ID=13971484 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+30/11 15:40	Error	documento ID=13971485 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+30/11 15:40	Error	documento ID=13971486 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+30/11 15:40	Error	documento ID=13971489 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+30/11 15:40	Error	documento ID=13971487 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+30/11 15:40	Error	documento ID=13971488 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+30/11 15:40	Error	documento ID=13971490 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+01/12 11:42	Info	Inicio la aplicación
+01/12 12:21	Info	Inicio la aplicación
+01/12 12:38	Error	documento ID=13973743 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+01/12 12:38	Error	documento ID=13973744 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+01/12 12:38	Error	documento ID=13973747 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+01/12 12:38	Error	documento ID=13973746 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+01/12 12:38	Error	documento ID=13973746 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+01/12 12:38	Error	documento ID=13973748 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+04/12 08:56	Info	Inicio la aplicación
+07/12 11:06	Info	Inicio la aplicación
+07/12 11:07	Error	documento ID=13992900 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+07/12 11:07	Error	documento ID=13992901 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+07/12 11:07	Error	documento ID=13992903 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+07/12 11:07	Error	documento ID=13992902 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+07/12 11:07	Error	documento ID=13992902 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+07/12 11:07	Error	documento ID=13992904 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+07/12 12:14	Info	Inicio la aplicación
+07/12 12:43	Info	Inicio la aplicación
+08/12 18:24	Info	Inicio la aplicación
+08/12 18:25	Error	documento ID=13997325 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+08/12 18:25	Error	documento ID=13997325 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+14/12 11:28	Info	Inicio la aplicación
+14/12 11:30	Info	Inicio la aplicación
+14/12 12:03	Info	Inicio la aplicación
+14/12 12:03	Info	Inicio la aplicación
+14/12 12:55	Info	Inicio la aplicación
+15/12 11:14	Info	Inicio la aplicación
+15/12 11:15	Info	Inicio la aplicación
+15/12 11:16	Info	Inicio la aplicación
+15/12 11:40	Info	Inicio la aplicación
+15/12 11:42	Info	Inicio la aplicación
+15/12 12:17	Info	Inicio la aplicación
+15/12 12:36	Info	Inicio la aplicación
+15/12 17:15	Info	Inicio la aplicación
+15/12 17:37	Info	Inicio la aplicación
+15/12 17:38	Info	Inicio la aplicación
+15/12 17:39	Info	Inicio la aplicación
+15/12 18:12	Info	Inicio la aplicación
+18/12 09:27	Info	Inicio la aplicación
+18/12 09:32	Info	Inicio la aplicación
+18/12 09:33	Info	Inicio la aplicación
+18/12 09:34	Info	Inicio la aplicación
+18/12 09:35	Info	Inicio la aplicación
+18/12 09:35	Info	Inicio la aplicación
+18/12 09:36	Info	Inicio la aplicación
+18/12 09:36	Info	Inicio la aplicación
+18/12 09:36	Info	Inicio la aplicación
+20/12 11:13	Info	Inicio la aplicación
+02/01 11:19	Info	Inicio la aplicación
+02/01 11:26	Info	Inicio la aplicación
+08/01 09:57	Info	Inicio la aplicación
+08/01 10:00	Info	Inicio la aplicación
+08/01 10:01	Info	Inicio la aplicación
+08/01 10:03	Info	Inicio la aplicación
+08/01 10:09	Info	Inicio la aplicación
+10/01 16:23	Info	Inicio la aplicación
+10/01 16:36	Info	Inicio la aplicación
+10/01 16:39	Info	Inicio la aplicación
+27/02 15:01	Info	Inicio la aplicación
+27/02 15:45	Info	Inicio la aplicación
+27/02 16:06	Info	Inicio la aplicación
+27/02 16:08	Error	documento ID=14217910 Error: Inicializo xml: El valor no puede ser nulo.
+Nombre del parámetro: s
+26/03 13:49	Info	Inicio la aplicación
+26/03 13:51	Info	Inicio la aplicación
+28/03 16:36	Info	Inicio la aplicación
+28/03 16:53	Info	Inicio la aplicación
+28/03 16:55	Info	Inicio la aplicación
+28/03 17:01	Info	Inicio la aplicación
+28/03 17:04	Info	Inicio la aplicación
+28/03 17:06	Info	Inicio la aplicación
+28/03 17:11	Info	Inicio la aplicación
+28/03 17:12	Info	Inicio la aplicación
+28/03 17:21	Info	Inicio la aplicación
+28/03 17:29	Info	Inicio la aplicación
+02/04 11:09	Info	Inicio la aplicación
+02/04 11:16	Info	Inicio la aplicación
+04/05 15:49	Info	Inicio la aplicación
+04/05 16:07	Info	Inicio la aplicación
+04/05 16:08	Info	Inicio la aplicación
+04/05 16:09	Info	Inicio la aplicación
+04/05 16:09	Info	Inicio la aplicación
+04/05 16:10	Info	Inicio la aplicación
+04/05 16:11	Info	Inicio la aplicación
+04/05 16:17	Info	Inicio la aplicación
+04/05 16:17	Info	Inicio la aplicación
+04/05 16:26	Info	Inicio la aplicación
+05/05 11:06	Info	Inicio la aplicación
+05/05 11:50	Info	Inicio la aplicación
+07/05 09:10	Info	Inicio la aplicación
+07/05 09:12	Info	Inicio la aplicación
+07/05 09:29	Info	Inicio la aplicación
+07/05 09:33	Info	Inicio la aplicación
+07/05 12:24	Info	Inicio la aplicación
+07/05 12:37	Info	Inicio la aplicación
+07/05 13:24	Info	Inicio la aplicación
+07/05 16:08	Info	Inicio la aplicación
+07/05 16:21	Info	Inicio la aplicación
+07/05 16:33	Info	Inicio la aplicación
+07/05 16:54	Info	Inicio la aplicación
+07/05 17:00	Info	Inicio la aplicación
+07/05 17:03	Info	Inicio la aplicación
+30/05 16:36	Info	Inicio la aplicación
+30/05 16:38	Info	Inicio la aplicación
+30/05 16:47	Info	Inicio la aplicación
+07/06 12:34	Info	Inicio la aplicación
+30/06 12:02	Info	Inicio la aplicación
+30/06 12:03	Error	documento ID=14566624 Error: ImprimirEFactura: Referencia a objeto no establecida como instancia de un objeto.
+30/06 12:03	Error	documento ID=14566625 Error: ImprimirEFactura: La configuración para obtener acceso a la impresora '' no es válida.
+16/07 11:22	Info	Inicio la aplicación
+16/07 11:38	Info	Inicio la aplicación
+16/07 15:34	Info	Inicio la aplicación
+30/07 15:35	Info	Inicio la aplicación
+07/08 09:33	Info	Inicio la aplicación
+07/08 10:32	Info	Inicio la aplicación
+07/08 10:33	Info	Inicio la aplicación
+07/08 10:38	Info	Inicio la aplicación
+07/08 11:28	Info	Inicio la aplicación
+07/08 11:30	Info	Inicio la aplicación
+29/08 17:15	Info	Inicio la aplicación
+17/09 10:34	Info	Inicio la aplicación
+17/09 10:35	Info	Inicio la aplicación
+17/09 11:43	Info	Inicio la aplicación
+21/09 12:30	Info	Inicio la aplicación
+21/09 16:36	Info	Inicio la aplicación
+21/09 16:41	Info	Inicio la aplicación
+28/11 15:06	Info	Inicio la aplicación
+28/11 15:15	Info	Inicio la aplicación
+07/12 10:34	Info	Inicio la aplicación
+26/12 17:56	Info	Inicio la aplicación
+27/12 11:30	Info	Inicio la aplicación
+27/12 11:48	Info	Inicio la aplicación
+27/12 12:07	Info	Inicio la aplicación
+27/12 12:38	Info	Inicio la aplicación
+27/12 12:47	Info	Inicio la aplicación
+27/12 12:55	Info	Inicio la aplicación
+27/12 13:01	Info	Inicio la aplicación
+27/12 13:39	Info	Inicio la aplicación
+27/12 13:46	Info	Inicio la aplicación
+27/12 13:55	Info	Inicio la aplicación
+27/12 15:50	Info	Inicio la aplicación
+28/12 08:43	Info	Inicio la aplicación
+28/12 08:46	Info	Inicio la aplicación
+28/12 08:46	Info	Inicio la aplicación
+28/12 08:49	Info	Inicio la aplicación
+28/12 08:53	Info	Inicio la aplicación
+28/12 08:54	Info	Inicio la aplicación
+28/12 08:54	Info	Inicio la aplicación
+29/12 12:45	Info	Inicio la aplicación
+29/12 12:46	Info	Inicio la aplicación
+02/01 09:02	Info	Inicio la aplicación
+02/01 09:08	Info	Inicio la aplicación
+02/01 15:59	Info	Inicio la aplicación
+01/09 14:28	Info	Inicio la aplicación

@@ -1,0 +1,9 @@
+frmCompra = 20, 139, 973, 697, , 22, 22, 406, 470, CZ
+modStart = 65, 104, 835, 685, C
+modComun = 35, 103, 482, 679, C
+modComercio = 138, 103, 585, 679, C
+modConeccion = 0, 0, 0, 0, C
+ModFormularios = 0, 0, 0, 0, C
+ModGlobales = 0, 0, 0, 0, C
+modListados = 0, 0, 0, 0, C
+modFechas = 130, 103, 577, 679, C

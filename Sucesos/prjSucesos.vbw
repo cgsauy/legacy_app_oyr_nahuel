@@ -1,0 +1,9 @@
+modStart = 162, 285, 942, 685, 
+frmSuceso = 101, 104, 913, 680, , 110, 110, 415, 456, C
+frmDetalle = 139, 114, 850, 679, , 66, 66, 371, 412, C
+modConeccion = 0, 0, 0, 0, C
+ModFormularios = 144, 103, 591, 679, C
+ModGlobales = 136, 103, 583, 679, C
+frmSetup = 0, 0, 0, 0, C, 88, 88, 393, 434, C
+modListados = 0, 0, 0, 0, C
+modComun = 144, 103, 591, 679, C

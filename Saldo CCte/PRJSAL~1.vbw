@@ -1,0 +1,5 @@
+frmSaldoCC = 64, 90, 1013, 694, , 0, 0, 0, 0, 
+modStart = 95, 111, 965, 702, 
+modConeccion = 129, 103, 576, 679, C
+ModFormularios = 0, 0, 0, 0, C
+ModGlobales = 129, 103, 576, 679, C

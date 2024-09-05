@@ -1,0 +1,10 @@
+frmMaCheque = 32, 112, 977, 726, , 50, 50, 846, 475, C
+modStart = 85, 133, 942, 684, C
+modConeccion = 0, 0, 0, 0, C
+ModGlobales = 50, 50, 1039, 357, 
+modFechas = 125, 125, 1114, 432, 
+ModFormularios = 0, 0, 0, 0, C
+modMaeDisponibilidad = 144, 103, 591, 679, C
+modComun = 144, 103, 882, 679, 
+modDeposito = 200, 200, 1114, 625, 
+frmWizGasto = 128, 128, 868, 704, , 75, 75, 871, 500, C

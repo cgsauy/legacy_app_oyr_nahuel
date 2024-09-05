@@ -1,0 +1,11 @@
+modStart = 84, 98, 972, 698, C
+frmFacturas = 51, 81, 1214, 865, , 73, 25, 695, 538, C
+modConeccion = 154, 154, 861, 602, C
+modFechas = 154, 61, 998, 704, C
+ModGlobales = 88, 88, 908, 669, C
+ModImportaciones = 141, 130, 861, 578, C
+modComun = 40, 83, 975, 730, C
+frmAsignarNota = 83, 83, 974, 717, C, 176, 176, 668, 624, C
+modComercio = 82, 78, 969, 496, C
+modMaeCheques = 131, 93, 949, 734, 
+frmSplitRubros = 112, 175, 946, 674, C, 50, 50, 702, 475, C

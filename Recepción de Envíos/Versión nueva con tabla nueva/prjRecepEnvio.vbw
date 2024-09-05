@@ -1,0 +1,5 @@
+modConnect = 154, 154, 434, 500, C
+modRepartoImpresion = 132, 132, 523, 478, C
+modStock = 154, 154, 545, 500, C
+frmRecepcionEnvio = 0, 0, 391, 346, Z, 66, 66, 457, 412, C
+modStart = 0, 0, 391, 346, C

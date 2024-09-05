@@ -1,0 +1,15 @@
+frmAsiFacCta = 110, 110, 452, 456, Z, 22, 22, 364, 368, C
+ModFormularios = 0, 0, 0, 0, C
+ModGlobales = 22, 22, 408, 298, C
+modConeccion = 66, 66, 445, 412, 
+modFechas = 66, 66, 452, 342, 
+modComun = 110, 110, 452, 456, 
+modComercio = 132, 132, 474, 478, C
+ModStart = 66, 66, 408, 412, C
+ModCrystal = 88, 88, 430, 434, 
+Contador = 132, 132, 504, 478, C
+modMaeDisponibilidad = 154, 154, 796, 500, 
+clslPrintConfig = 0, 0, 874, 316, 
+frmDondeImprimoSC = 25, 25, 733, 450, , 200, 200, 908, 625, C
+clsCnfgImpresora = 50, 50, 758, 475, C
+frmSucesoAutoriza = 150, 150, 978, 504, , 125, 125, 953, 479, C

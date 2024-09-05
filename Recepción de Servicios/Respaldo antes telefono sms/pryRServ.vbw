@@ -1,0 +1,9 @@
+ModGlobales = 154, 154, 796, 500, C
+modStart = 22, 22, 408, 300, C
+modServicio = 199, 137, 585, 412, C
+ModFormularios = 0, 0, 0, 0, C
+modStock = 44, 44, 385, 390, C
+frmRecServ = 257, 145, 522, 491, Z, 44, 44, 416, 313, C
+ModSuperPosicion = 132, 132, 639, 485, C
+modConnect = 0, 0, 0, 0, C
+clslPrintConfig = 66, 66, 439, 412, C

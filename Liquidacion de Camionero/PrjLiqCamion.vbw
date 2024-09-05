@@ -1,0 +1,14 @@
+frmListado = 54, 50, 878, 421, , 25, 25, 849, 396, C
+modStart = 75, 75, 899, 446, 
+ModFormularios = 0, 0, 0, 0, C
+ModGlobales = 0, 0, 0, 0, C
+modServicio = 50, 50, 1287, 366, C
+modComun = 50, 50, 1212, 475, C
+modStock = 0, 0, 0, 0, C
+modMaeDisponibilidad = 50, 50, 1206, 475, C
+modFlexHTML = 0, 0, 0, 0, C
+modConnect = 25, 25, 1181, 450, 
+clsLiquidacionCobro = 0, 0, 796, 425, C
+clsDetalleLiquidacion = 125, 125, 921, 550, C
+clsQueLiquido = 200, 200, 1069, 625, C
+clsImporteCantidad = 75, 75, 898, 500, C

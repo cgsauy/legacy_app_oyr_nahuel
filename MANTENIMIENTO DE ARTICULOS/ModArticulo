@@ -1,0 +1,84 @@
+Attribute VB_Name = "ModArticulo"
+Option Explicit
+
+Public txtConexion As String
+Public clsGeneral As New clsorCGSA
+Public UsuLogueado As Long
+Public miConexion As New clsConexion
+Public gCerrarConexion As Boolean
+
+Public paPathApp As String
+
+Public paLocalZF As Long
+
+Public Sub Main()
+On Error GoTo ErrMain
+    
+    
+    If App.StartMode = vbSModeStandalone Then
+        Dim aComm As String
+        aComm = Trim(Command())
+        
+        If Not IsNumeric(aComm) And Trim(aComm) <> "" Then
+            If UCase(Mid(aComm, 1, 1)) = "P" Then
+                Dim aIDArticulo As Long
+                aIDArticulo = Mid(aComm, 2, Len(aComm) - 1)
+                    
+                If miConexion.AccesoAlMenu("Mantenimiento de Precio") Then
+                    Screen.MousePointer = 11
+                   txtConexion = miConexion.TextoConexion(logComercio)
+                    If InicioConexionBD(txtConexion) Then
+                        Cons = "Select  * From Parametro Where ParNombre = 'pathapp'"
+                        Set RsAux = cBase.OpenResultset(Cons, rdOpenDynamic, rdConcurValues)
+                        If Not RsAux.EOF Then paPathApp = Trim(RsAux!ParTexto)
+                        RsAux.Close
+                        If paPathApp <> "" And Right(paPathApp, 1) <> "\" Then paPathApp = paPathApp & "\"
+                        gCerrarConexion = True
+                        EjecutarApp paPathApp & "Precio_Articulo.exe", CStr(aIDArticulo)
+                        End: Exit Sub
+                    Else
+                        End: Exit Sub
+                    End If
+                Else
+                    If miConexion.UsuarioLogueado(Codigo:=True) <> 0 Then MsgBox "Ud no tiene permiso para acceder al formulario de Precios de Artículos.", vbExclamation, "ATENCIÓN"
+                    End
+                    Screen.MousePointer = 0
+                End If
+            Else
+                End
+            End If
+        Else
+            If miConexion.AccesoAlMenu(App.Title) Then
+                Screen.MousePointer = 11
+                txtConexion = miConexion.TextoConexion(logComercio)
+                If InicioConexionBD(txtConexion) Then
+                    UsuLogueado = miConexion.UsuarioLogueado(True)
+                    CargoParametrosComercio
+                    CargoParametrosSucursal
+                    gCerrarConexion = False
+                    Cons = "Select  * From Parametro Where ParNombre = 'pathapp'"
+                    Set RsAux = cBase.OpenResultset(Cons, rdOpenDynamic, rdConcurValues)
+                    If Not RsAux.EOF Then paPathApp = Trim(RsAux!ParTexto)
+                    RsAux.Close
+                    If paPathApp <> "" And Right(paPathApp, 1) <> "\" Then paPathApp = paPathApp & "\"
+                    MaArticulo.Show vbModeless
+                Else
+                    End: Exit Sub
+                End If
+            Else
+                If miConexion.UsuarioLogueado(Codigo:=True) <> 0 Then MsgBox "Ud. no tiene permisos de acceso para la aplicación.", vbExclamation, "ATENCIÓN"
+                End
+                Screen.MousePointer = 0
+            End If
+        End If
+    Else
+        'Lo implementamos por si no esta corriendo login pida contraseña.
+        miConexion.AccesoAlMenu ("MaEmbarque")
+        InicioConexionBD miConexion.TextoConexion(logComercio)
+    End If
+    Exit Sub
+    
+ErrMain:
+    clsGeneral.OcurrioError "Ocurrió un error al activar el ejecutable.", Trim(Err.Description)
+    End
+End Sub

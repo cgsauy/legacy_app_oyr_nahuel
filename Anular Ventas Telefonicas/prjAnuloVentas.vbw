@@ -1,0 +1,7 @@
+ModGlobales = 0, 0, 0, 0, C
+modStock = 66, 66, 866, 512, 
+ModStart = 44, 44, 535, 490, 
+Contador = 0, 0, 0, 0, C
+modMaeDisponibilidad = 100, 100, 1040, 419, C
+modConnect = 125, 125, 1066, 441, 
+frmAnularVentas = 100, 100, 808, 525, , 75, 75, 783, 500, C

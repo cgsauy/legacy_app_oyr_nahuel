@@ -1,0 +1,17 @@
+frmResolucion = 104, 281, 1250, 854, , 46, 46, 594, 429, C
+modStart = -119, 91, 934, 871, 
+ModFormularios = 89, 110, 954, 688, C
+ModGlobales = 138, 103, 585, 679, 
+modFechas = 118, 103, 565, 679, 
+modCredito = 35, 103, 758, 686, C
+modFacturacion = 35, 103, 723, 679, C
+modConstantesFacturacion = 123, 53, 797, 596, 
+frmLista = 97, 94, 1317, 874, , 92, 92, 640, 475, C
+modAATrayIcon = 129, 103, 576, 679, 
+modFncLocal = 83, 22, 953, 732, 
+frmHelpMonto = 45, 125, 981, 677, C, 138, 138, 686, 521, C
+frmPregunta = 0, 0, 831, 354, , 150, 150, 1087, 504, C
+clsResolucionAccesible = 75, 75, 906, 429, C
+clsTiposDocIdent = 50, 50, 802, 401, 
+clsTipoDocumento = 75, 75, 827, 426, C
+clsPais = 0, 0, 0, 0, C

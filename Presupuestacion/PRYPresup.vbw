@@ -1,0 +1,7 @@
+modStart = 44, 44, 565, 390, C
+modConeccion = 88, 88, 730, 434, C
+ModGlobales = 44, 44, 730, 319, 
+frmPresupuestacion = 44, 44, 565, 390, , 0, 0, 220, 346, C
+modServicio = 0, 0, 521, 346, 
+modFechas = 66, 66, 752, 341, C
+modStock = 22, 22, 363, 368, C

@@ -1,0 +1,9 @@
+frmInMeEsp = 66, 66, 752, 342, , 22, 22, 445, 298, C
+modStart = 88, 88, 511, 364, C
+modConeccion = 110, 110, 533, 386, C
+modFechas = 0, 0, 423, 276, C
+ModGlobales = 0, 0, 0, 0, C
+ModLView = 0, 0, 0, 0, C
+modComun = 0, 0, 423, 276, Z
+modComercio = 22, 22, 445, 298, C
+modStock = 66, 66, 752, 342, C

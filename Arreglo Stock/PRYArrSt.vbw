@@ -1,0 +1,10 @@
+frmArrST = 66, 66, 433, 412, , 178, 27, 728, 331, C
+ModStart = 66, 66, 408, 412, 
+modConeccion = 132, 132, 774, 478, 
+ModGlobales = 110, 110, 331, 456, C
+ModFormularios = 0, 0, 0, 0, C
+modComercio = 154, 154, 375, 500, 
+modComun = 154, 154, 496, 500, C
+modListados = 0, 0, 0, 0, C
+modStock = 110, 110, 452, 456, C
+modFechas = 0, 0, 0, 0, C

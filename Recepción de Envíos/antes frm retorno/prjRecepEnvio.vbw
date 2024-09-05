@@ -1,0 +1,7 @@
+modConnect = 154, 154, 434, 500, C
+modStock = 391, 105, 821, 696, C
+frmRecepcionEnvio = 21, 75, 1057, 832, , 66, 66, 457, 412, C
+modStart = 0, 0, 391, 346, C
+ModSuperPosicion = 132, 132, 704, 486, C
+frmMercaAReclamar = 88, 88, 617, 438, , 66, 66, 660, 416, C
+frmDividoEnvio = 66, 66, 529, 512, Z, 44, 44, 507, 490, C

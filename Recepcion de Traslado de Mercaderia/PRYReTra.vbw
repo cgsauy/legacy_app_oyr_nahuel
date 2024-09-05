@@ -1,0 +1,10 @@
+modStart = 88, 88, 509, 357, 
+ModGlobales = 110, 110, 425, 456, C
+modStock = 110, 110, 774, 379, C
+RecTransferencia = 128, 156, 446, 425, , 44, 0, 512, 497, C
+modConnect = 100, 100, 1197, 737, C
+clsTraspaso = 150, 150, 1247, 787, 
+clsRenglonTraspaso = 175, 175, 1272, 812, C
+clslPrintConfig = 100, 100, 1197, 737, 
+clsParametros = 25, 25, 1178, 662, C
+clsParametroItem = 50, 50, 1203, 687, 

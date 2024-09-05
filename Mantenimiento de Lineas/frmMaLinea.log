@@ -1,0 +1,4 @@
+Line 27: Class ComctlLib.Toolbar of control tooMenu was not a loaded control class.
+Line 112: Class VSFlex6DAOCtl.vsFlexGrid of control vsDato was not a loaded control class.
+Line 196: Class ComctlLib.StatusBar of control staMsg was not a loaded control class.
+Line 225: Class ComctlLib.ImageList of control ImageList1 was not a loaded control class.

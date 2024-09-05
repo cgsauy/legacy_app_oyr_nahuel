@@ -1,0 +1,8 @@
+modStart = 83, 110, 934, 706, C
+modConeccion = 44, 44, 751, 492, C
+modComun = 191, 140, 898, 627, C
+ModGlobales = 110, 110, 910, 558, C
+frmConQPaga = 57, 90, 945, 719, , 180, 19, 857, 601, C
+modFechas = 0, 0, 0, 0, C
+ModImportaciones = 138, 103, 832, 679, C
+modMaeCheques = 158, 114, 914, 690, C

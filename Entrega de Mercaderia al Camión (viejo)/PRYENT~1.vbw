@@ -1,0 +1,9 @@
+EntMercaderia = 44, 44, 465, 313, , 22, 22, 443, 291, C
+modStart = 88, 88, 509, 357, C
+modComercio = 66, 66, 730, 335, C
+modConeccion = 110, 110, 531, 379, C
+ModGlobales = 110, 110, 796, 380, C
+modComun = 44, 44, 465, 313, 
+modFechas = 66, 66, 752, 336, C
+modStock = 110, 110, 531, 379, 
+modListados = 132, 132, 553, 401, C

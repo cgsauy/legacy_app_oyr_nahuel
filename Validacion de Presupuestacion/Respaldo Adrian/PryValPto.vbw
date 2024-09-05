@@ -1,0 +1,11 @@
+modConeccion = 88, 88, 730, 434, C
+ModFormularios = 0, 0, 0, 0, C
+ModGlobales = 44, 44, 730, 319, C
+frmSetup = 0, 0, 0, 0, C, 154, 154, 495, 500, C
+modListados = 0, 0, 0, 0, C
+modServicio = 0, 0, 521, 346, 
+modFechas = 0, 0, 0, 0, C
+modStock = 22, 22, 363, 368, 
+modComercio = 0, 0, 341, 346, C
+frmPresupuestacion = 110, 110, 451, 456, Z, 88, 88, 429, 434, 
+modStart = 22, 22, 407, 297, C

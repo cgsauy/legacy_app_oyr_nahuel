@@ -1,0 +1,8 @@
+frmSetup = 0, 0, 0, 0, C, 66, 66, 708, 412, C
+modConeccion = 154, 154, 553, 500, C
+modFechas = 88, 88, 752, 357, C
+ModFormularios = 0, 0, 0, 0, C
+ModGlobales = 132, 132, 517, 401, C
+modListados = 0, 0, 0, 0, C
+modConstantesFacturacion = 44, 44, 708, 313, C
+modStock = 22, 22, 407, 291, C

@@ -1,0 +1,10 @@
+modStart = 127, 100, 950, 676, C
+frmMayor = 7, 159, 1000, 709, CZ, 0, 0, 0, 0, C
+modListados = 130, 166, 852, 679, C
+modComun = 141, 103, 946, 679, C
+ModGlobales = 0, 0, 0, 0, C
+ModFormularios = 0, 0, 0, 0, C
+modConeccion = 0, 0, 0, 0, C
+frmSetup = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+modCaja = 123, 135, 964, 711, C
+modComercio = 141, 103, 779, 679, C

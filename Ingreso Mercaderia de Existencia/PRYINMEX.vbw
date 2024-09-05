@@ -1,0 +1,9 @@
+modConeccion = 139, 99, 930, 494, C
+modFechas = 0, 0, 423, 276, C
+ModGlobales = 44, 44, 933, 786, C
+frmSetup = 129, 103, 576, 903, , 22, 22, 385, 368, C
+modListados = 132, 132, 504, 478, C
+ModFormularios = 0, 0, 0, 0, C
+frmListado = 142, 82, 1149, 947, C, 0, 0, 495, 478, C
+modStart = 24, 110, 968, 693, 
+frmComentario = 47, 132, 913, 713, C, 154, 154, 452, 500, C

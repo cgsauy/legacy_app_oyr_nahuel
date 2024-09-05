@@ -1,0 +1,10 @@
+MaArticulo = 40, -6, 852, 606, , 22, 22, 433, 467, C
+ModArticulo = -81, 40, 731, 652, 
+MaUnCampo = 110, 110, 752, 456, , 44, 44, 463, 390, C
+ModGlobales = 66, 66, 408, 412, 
+modConeccion = 44, 44, 386, 390, C
+modComercio = 86, 103, 898, 599, 
+ModLView = 0, 0, 0, 0, C
+modComun = 66, 66, 408, 412, 
+ModImportaciones = 88, 88, 900, 583, 
+ModFormularios = 0, 0, 0, 0, C

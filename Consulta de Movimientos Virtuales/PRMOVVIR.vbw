@@ -1,0 +1,10 @@
+ModStart = 88, 88, 730, 434, C
+frmMovVirtuales = 66, 66, 509, 342, , 22, 22, 465, 298, C
+modFechas = 0, 0, 0, 0, C
+modListados = 44, 44, 426, 382, 
+modConeccion = 0, 0, 0, 0, C
+ModGlobales = 0, 0, 0, 0, C
+ModFormularios = 0, 0, 0, 0, C
+frmSetup = 0, 0, 0, 0, C, 88, 88, 730, 434, C
+DeMovimientoStock = 0, 0, 0, 0, C, 110, 110, 752, 456, C
+modConstantesFacturacion = 0, 0, 0, 0, C

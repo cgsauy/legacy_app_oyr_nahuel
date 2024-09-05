@@ -1,0 +1,21 @@
+Line 160: Class orctFecha.orFecha of control tFAPartir was not a loaded control class.
+Line 374: Class orctFecha.orFecha of control tEmbarco was not a loaded control class.
+Line 396: Class orctFecha.orFecha of control tFHasta was not a loaded control class.
+Line 166: The property name _ExtentX in tFAPartir is invalid.
+Line 167: The property name _ExtentY in tFAPartir is invalid.
+Line 177: The property name Object.Width in tFAPartir is invalid.
+Line 178: The property name EnabledMes in tFAPartir is invalid.
+Line 179: The property name EnabledAño in tFAPartir is invalid.
+Line 180: The property name FechaFormato in tFAPartir is invalid.
+Line 380: The property name _ExtentX in tEmbarco is invalid.
+Line 381: The property name _ExtentY in tEmbarco is invalid.
+Line 391: The property name Object.Width in tEmbarco is invalid.
+Line 392: The property name EnabledMes in tEmbarco is invalid.
+Line 393: The property name EnabledAño in tEmbarco is invalid.
+Line 394: The property name FechaFormato in tEmbarco is invalid.
+Line 402: The property name _ExtentX in tFHasta is invalid.
+Line 403: The property name _ExtentY in tFHasta is invalid.
+Line 413: The property name Object.Width in tFHasta is invalid.
+Line 414: The property name EnabledMes in tFHasta is invalid.
+Line 415: The property name EnabledAño in tFHasta is invalid.
+Line 416: The property name FechaFormato in tFHasta is invalid.

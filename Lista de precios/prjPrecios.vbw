@@ -1,0 +1,12 @@
+frmListas = 82, 204, 894, 718, , 22, 22, 480, 437, C
+modStart = 91, 167, 818, 667, 
+ModCrystal = 150, 116, 962, 692, 
+modConeccion = 0, 0, 0, 0, C
+ModGlobales = 0, 0, 0, 0, C
+frmPreview = 19, 5, 831, 569, C, 88, 88, 460, 434, C
+frmFiltroEtiqueta = 0, 0, 238, 346, , 154, 154, 662, 500, C
+frmReport = 75, 75, 894, 429, , 50, 50, 975, 404, C
+clsPropEtiqueta = 125, 125, 944, 479, 
+modMaeDisponibilidad = 50, 50, 975, 404, 
+ModFormularios = 0, 0, 0, 0, C
+clsCuotas = 75, 75, 727, 500, C

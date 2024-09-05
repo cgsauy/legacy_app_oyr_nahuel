@@ -1,0 +1,20 @@
+[CiRuc]			Cedula o Ruc
+[NombreCompleto]	Nombre Completo
+[NombreSimple]		Nombre Simple
+        
+[Fecha]			Fecha formato Long Date
+              
+        
+[Direccion]		Direccion del Cliente
+[EntreCalle]		Entre Calles
+[Localidad]		Localidad, Departamento
+        
+        
+[FechaAtraso]		Fecha de Atraso Formato d Mmmm, yyyy
+        
+[Deuda]			Deuda del Cliente
+                
+[GarantiaDe]		Nombre del Titular (cartas a garantias)
+
+
+        

@@ -1,0 +1,30 @@
+Public Function fnc_ValidoAcceso(keyApp As String, IDEmpresa As Long) As Boolean
+On Error GoTo errVAcc
+
+    fnc_ValidoAcceso = False
+        
+    prmAccesosUserLog = objUsers.ValidateAccess(rdoCBase, prmZKey, keyApp, IDEmpresa)
+    If prmAccesosUserLog <> "" Then
+        fnc_ValidoAcceso = True
+    Else
+        'Si Multiusuario --> Ver Q Permisos Tomar o con que Usuario hacer loguin
+        If prmBDMultiUsuario = 1 Then
+
+            Dim idUSR As Long, mRET As Integer
+            'Como valor Q usuarios (-1 error, 0 no hay, 1 hay uno ,2 hay mas de 1)
+            mRET = objUsers.GetUserData(rdoCBase, prmZKey, UserID:=idUSR)
+            If (mRET <> -1) And (idUSR = -1) Then
+            
+                '0- No hay acceso;  1- Hay acceso
+                mRET = objUsers.doLogIn(rdoCBase, prmZKey, prmUsuario, prmClave)
+                If mRET = 1 Then
+                    prmAccesosUserLog = objUsers.ValidateAccess(rdoCBase, prmZKey, keyApp, IDEmpresa)
+                    If prmAccesosUserLog <> "" Then fnc_ValidoAcceso = True
+                End If
+            End If
+                    
+        End If
+    End If
+
+errVAcc:
+End Function

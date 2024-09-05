@@ -1,0 +1,9 @@
+modConeccion = 35, 103, 846, 887, C
+modFechas = 0, 0, 0, 0, C
+ModFormularios = 0, 0, 0, 0, C
+ModGlobales = 133, 103, 580, 887, C
+modServicio = 133, 103, 580, 883, C
+modStart = 133, 103, 580, 883, 
+modListados = 0, 0, 0, 0, C
+frmListado = 129, 103, 1111, 883, , 150, 150, 894, 575, C
+frmSetup = 0, 0, 0, 0, C, 100, 100, 931, 737, C

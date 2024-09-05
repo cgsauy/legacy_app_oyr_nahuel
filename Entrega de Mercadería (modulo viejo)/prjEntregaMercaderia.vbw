@@ -1,0 +1,16 @@
+Funciones = 96, 107, 908, 697, C
+modCombo = 132, 132, 465, 476, C
+modFechas = 22, 22, 292, 366, C
+ModLView = 110, 110, 741, 383, C
+Contador = 66, 66, 739, 717, C
+modStock = 31, 48, 1011, 715, C
+modToolBar = 66, 66, 804, 699, C
+InicioEMercaderia = 81, 78, 862, 690, C, 44, 44, 372, 388, C
+DeEntrega = 100, 90, 1114, 870, C, 66, 66, 772, 572, C
+InUsuario = 110, 110, 701, 454, C, 66, 66, 302, 410, C
+SeEntrega = 32, 76, 1128, 856, C, 110, 110, 793, 507, C
+ModFormularios = 131, 103, 1022, 679, C
+VarGlobal = 139, 103, 586, 679, C
+frmImprimirEntrega = 0, 0, 819, 317, , 125, 125, 944, 442, C
+modMainEntrega = 0, 0, 0, 0, C
+Constantes = 0, 0, 0, 0, C

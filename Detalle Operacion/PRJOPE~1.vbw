@@ -1,0 +1,9 @@
+modConeccion = 220, 220, 608, 668, C
+modFechas = 130, 103, 577, 679, C
+ModFormularios = 138, 103, 585, 679, C
+ModGlobales = 88, 88, 613, 473, C
+modCredito = 30, 117, 951, 723, 
+frmDeOperacion = 26, 99, 995, 734, , 75, 75, 898, 500, C
+modStart = 35, 170, 960, 679, 
+modMaeDisponibilidad = 161, 125, 885, 701, 
+modConstantesFacturacion = 0, 0, 0, 0, C

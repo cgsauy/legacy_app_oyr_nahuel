@@ -1,0 +1,8 @@
+frmCheque = 75, 92, 914, 835, , 100, 100, 890, 525, C
+modStart = 99, 156, 867, 666, 
+modConeccion = 0, 0, 0, 0, C
+ModGlobales = 144, 103, 591, 679, C
+modFechas = 0, 0, 0, 0, C
+modDiccionario = 144, 103, 591, 679, C
+modComun = 144, 103, 889, 679, 
+modMaeDisponibilidad = 0, 0, 0, 0, C

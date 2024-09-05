@@ -1,0 +1,8 @@
+frmControl = 132, 197, 1113, 919, , 46, 46, 657, 422, C
+modStart = 47, 91, 918, 710, C
+modConeccion = 130, 103, 608, 725, C
+ModGlobales = 0, 0, 0, 0, C
+modComun = 125, 103, 572, 883, 
+modContador = 0, 0, 0, 0, C
+modFechas = 150, 150, 1083, 487, 
+ModCrystal = 125, 103, 985, 935, C

@@ -1,0 +1,6 @@
+frmMaUsuario = 95, 75, 1189, 855, , 22, 22, 548, 470, C
+modStart = 64, 106, 1143, 830, 
+modFechas = 0, 0, 0, 0, C
+modConeccion = 35, 103, 832, 679, C
+ModGlobales = 129, 103, 576, 883, 
+modEncryption = 129, 103, 576, 679, 

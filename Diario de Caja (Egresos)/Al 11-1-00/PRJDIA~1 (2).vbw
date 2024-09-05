@@ -1,0 +1,11 @@
+modStart = 22, 22, 418, 470, C
+frmDiarioEgresos = 44, 44, 751, 492, Z, 22, 22, 418, 470, C
+modListados = 0, 0, 0, 0, C
+modComun = 0, 0, 396, 448, C
+ModGlobales = 132, 132, 839, 580, C
+ModFormularios = 0, 0, 0, 0, C
+modConeccion = 0, 0, 0, 0, C
+ModImportaciones = 132, 132, 976, 519, C
+frmSetup = 66, 66, 599, 453, C, 110, 110, 506, 558, C
+modCaja = 66, 66, 450, 514, C
+modComercio = 110, 110, 817, 558, C

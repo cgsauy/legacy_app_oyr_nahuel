@@ -1,0 +1,8 @@
+vbwProtector = 0, 0, 0, 0, C
+frmListas = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+modStart = 0, 0, 0, 0, C
+ModCrystal = 0, 0, 0, 0, C
+modConeccion = 0, 0, 0, 0, C
+ModGlobales = 0, 0, 0, 0, C
+frmPreview = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmFiltroEtiqueta = 0, 0, 0, 0, C, 0, 0, 0, 0, C

@@ -1,0 +1,32 @@
+Line 32: Class AACombo99.AACombo of control cMoneda was not a loaded control class.
+Line 69: Class AACombo99.AACombo of control cCondicion was not a loaded control class.
+Line 143: Class ComctlLib.ListView of control lLista was not a loaded control class.
+Line 248: Class ComctlLib.ImageList of control ImageList1 was not a loaded control class.
+Line 38: The property name _ExtentX in cMoneda is invalid.
+Line 39: The property name _ExtentY in cMoneda is invalid.
+Line 40: The property name ListIndex in cMoneda is invalid.
+Line 75: The property name _ExtentX in cCondicion is invalid.
+Line 76: The property name _ExtentY in cCondicion is invalid.
+Line 77: The property name ListIndex in cCondicion is invalid.
+Line 149: The property name _ExtentX in lLista is invalid.
+Line 150: The property name _ExtentY in lLista is invalid.
+Line 151: The property name View in lLista is invalid.
+Line 152: The property name LabelEdit in lLista is invalid.
+Line 153: The property name LabelWrap in lLista is invalid.
+Line 154: The property name HideSelection in lLista is invalid.
+Line 155: The property name _Version in lLista is invalid.
+Line 156: The property name SmallIcons in lLista is invalid.
+Line 161: The property name NumItems in lLista is invalid.
+Line 167: The property name ColumnHeader(1) in lLista is invalid.
+Line 174: The property name ColumnHeader(2) in lLista is invalid.
+Line 181: The property name ColumnHeader(3) in lLista is invalid.
+Line 189: The property name ColumnHeader(4) in lLista is invalid.
+Line 196: The property name ColumnHeader(5) in lLista is invalid.
+Line 203: The property name ColumnHeader(6) in lLista is invalid.
+Line 251: The property name _ExtentX in ImageList1 is invalid.
+Line 252: The property name _ExtentY in ImageList1 is invalid.
+Line 254: The property name ImageWidth in ImageList1 is invalid.
+Line 255: The property name ImageHeight in ImageList1 is invalid.
+Line 256: The property name MaskColor in ImageList1 is invalid.
+Line 257: The property name _Version in ImageList1 is invalid.
+Line 268: The property name Images in ImageList1 is invalid.

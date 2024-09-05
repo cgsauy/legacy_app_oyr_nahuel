@@ -1,0 +1,9 @@
+Line 35: Class prjBuscarCliente.ucBuscarCliente of control txtCliente was not a loaded control class.
+Line 50: Class prjFindArticulo.orArticulo of control tArticulo was not a loaded control class.
+Line 70: Class AACombo99.AACombo of control cPagaCon was not a loaded control class.
+Line 89: Class AACombo99.AACombo of control cMoneda was not a loaded control class.
+Line 109: Class AACombo99.AACombo of control cTipoTelefono was not a loaded control class.
+Line 138: Class MSComctlLib.Toolbar of control Toolbar1 was not a loaded control class.
+Line 333: Class MSComctlLib.StatusBar of control Status was not a loaded control class.
+Line 381: Class MSComctlLib.ListView of control lvVenta was not a loaded control class.
+Line 450: Class MSComctlLib.ImageList of control ImageList1 was not a loaded control class.

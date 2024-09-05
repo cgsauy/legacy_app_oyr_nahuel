@@ -1,0 +1,10 @@
+modStart = 22, 22, 408, 297, C
+ModGlobales = 66, 66, 708, 412, C
+modFechas = 115, 115, 903, 539, C
+modConeccion = 110, 110, 796, 383, C
+modServicio = 110, 110, 752, 456, C
+ModFormularios = 0, 0, 0, 0, C
+frmCambioProducto = 44, 44, 584, 390, , 22, 22, 352, 368, C
+modStock = 110, 110, 650, 456, C
+clslPrintConfig = 150, 150, 858, 575, 
+modImpresion = 175, 175, 883, 600, 

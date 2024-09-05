@@ -1,0 +1,17 @@
+MaCarpeta = 94, 66, 396, 336, C, 44, 44, 538, 394, C
+ModCarpeta = 88, 88, 646, 443, C
+MaEmbarque = 273, 129, 799, 399, , 88, 88, 269, 358, C
+modFechas = 0, 0, 642, 346, 
+HeCarpeta = 22, 22, 440, 368, , 0, 0, 418, 346, C
+modComun = 110, 110, 752, 456, 
+ModGlobales = 88, 88, 458, 434, 
+ModImportaciones = 132, 132, 774, 478, 
+modConeccion = 0, 0, 761, 464, 
+modStock = 0, 0, 642, 346, 
+modComercio = 66, 66, 429, 412, 
+ModLView = 0, 0, 0, 0, C
+clsEmbarque = 75, 75, 890, 423, 
+frmPreciosFlete = 25, 25, 727, 450, , 75, 75, 777, 500, C
+clsCodigoNombre = 50, 50, 752, 475, 
+clsContenedoresEmbarque = 75, 75, 777, 500, C
+clsDatosPrecioFlete = 100, 100, 802, 525, 

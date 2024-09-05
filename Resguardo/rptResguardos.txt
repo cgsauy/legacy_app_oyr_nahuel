@@ -1,0 +1,16 @@
+[MLeft]500
+[MRight1400
+[MTop]100
+[MBottom]100
+[ResNumero]0:0:1:11:8600;800|8600;8900
+[label.Fecha]1000:0:1:10:8100;1050|8100;9200
+[ComFecha]1900:0:1:10:9100;1050|9100;9200
+[label.Proveedor:]1000:0:1:9:700;1600|700;9600
+[Cliente]7000:0:0:9:1800;1600|1800;9600
+[label.Dirección]1000:0:1:9:700;1900|700;9900
+[Direccion]7000:0:1:9:1800;1900|1800;9900
+[Rut]7000:0:0:9:7800;2000|7800;10000
+[label.Total (pesos uruguayos)]0:0:1:9:7200;6000|7200;14000
+[Importe]2000:2:1:9:9100;6000|9100;14000
+[Tabla.Renglones]<4000|40|<1550|<3400|>1800: Factura [FacNumero] por [FacMoneda][FacTotal]|@|Iva= [FacIva]|[ResgImpME]|[Importe]:0:9:700;2750|1700;10700
+

@@ -1,0 +1,11 @@
+frmCierre = 56, 83, 1244, 863, Z, 22, 22, 421, 470, C
+modStart = 156, 13, 1182, 793, 
+modComercio = 110, 110, 898, 683, C
+modComun = 80, 75, 1193, 855, 
+modConeccion = 154, 154, 923, 660, C
+modFechas = 0, 0, 0, 0, C
+ModGlobales = 66, 66, 450, 514, C
+modListados = 0, 0, 0, 0, C
+ModFormularios = 0, 0, 0, 0, C
+modMaeDisponibilidad = 151, 184, 940, 653, C
+modZureo = 121, 78, 1175, 858, 

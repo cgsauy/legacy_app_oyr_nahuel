@@ -1,0 +1,7 @@
+ModGlobales = 154, 154, 796, 500, C
+modStart = 22, 22, 408, 300, C
+ModFormularios = 22, 22, 306, 368, C
+frmIngDe = 22, 22, 330, 291, , 44, 44, 429, 313, C
+modStockMovimiento = 66, 66, 455, 412, C
+clslPrintConfig = 110, 110, 499, 456, C
+modConnect = 44, 44, 433, 390, C

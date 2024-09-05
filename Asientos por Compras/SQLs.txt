@@ -1,0 +1,30 @@
+Select DisId, DisMoneda, DisIDSRCheque, SRuID, SRuCodigo, SRuNombre, Importe = Sum(MDRImportePesos), Debe = Sum(MDRDebe), Haber = Sum(MDRHaber)  
+From MovimientoDisponibilidadRenglon, MovimientoDisponibilidad, Disponibilidad, SubRubro 
+Where MDiFecha Between '03/15/2003' AND '03/28/2003' 
+And MDiID = MDRIDMovimiento And MDiIDCompra is Not Null 
+and MDRIdDisponibilidad = DisID 
+And DisIDSubrubro = SRuID  
+And MDRDebe is Null  
+Group by DisID, DisMoneda, DisIDSRCheque, SRuID, SRuCodigo, SRuNombre
+
+/* Movimientos para una Disponibilidad */
+Select RubCodigo, RubNombre, SRuCodigo, SRuNombre, GSrImporte, MDRImportePesos, MDRImporteCompra, MDRDebe, MDRHaber
+From MovimientoDisponibilidad, MovimientoDisponibilidadRenglon, Compra, GastoSubRubro, SubRubro, Rubro 
+Where MDiFecha Between '03/15/2003' AND '04/15/2003' 
+And MDiIDCompra = ComCodigo  And ComCodigo = GSrIDCompra 
+And GSrIDSubRubro = SRuID  And SRuRubro = RubID 
+And MDRDebe is Null
+And MDiID = MDRIDMovimiento
+And MDRIDDisponibilidad = 3
+Order by MDiID
+
+/* Movimientos con cheques diferidos librados en el Rango de SQL - van a otro rubro */
+Select SRuCodigo, SRuNombre, Importe = Sum(MDRImportePesos), Debe = Sum(MDRDebe), Haber = Sum(MDRHaber)  
+From MovimientoDisponibilidadRenglon, MovimientoDisponibilidad, Disponibilidad, SubRubro, Cheque 
+Where MDiFecha Between '03/15/2003' AND '04/15/2003' 
+And MDiID = MDRIDMovimiento And MDRIdDisponibilidad 
+IN (Select DisID from Disponibilidad Where DisIDSubrubro =  46) 
+And MDiIDCompra Is Not Null And 
+MDRIdDisponibilidad = DisID And DisIDSRCheque = SRuID  And MDRIDCheque = CheID 
+And CheVencimiento Is Not Null And CheLibrado Between '03/15/2003' AND '04/15/2003' And MDRDebe is Null  
+Group by SR

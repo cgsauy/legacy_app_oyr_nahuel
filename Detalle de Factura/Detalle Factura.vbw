@@ -1,0 +1,7 @@
+modConeccion = 138, 103, 940, 679, C
+ModFormularios = 35, 103, 482, 679, C
+ModGlobales = 129, 103, 905, 679, 
+modCredito = 0, 0, 0, 0, C
+frmDeFactura = 44, 198, 1207, 916, , 100, 100, 1170, 633, C
+modStart = 26, 87, 1039, 880, 
+modConstantesFacturacion = 137, 103, 911, 679, C

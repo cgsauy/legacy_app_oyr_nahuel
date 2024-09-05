@@ -1,0 +1,13 @@
+frmRetiroDomicilio = 46, 46, 594, 429, , 23, 23, 1008, 406, C
+clsFncGlobales = 115, 115, 663, 498, 
+modStart = 138, 138, 686, 521, C
+clslPrintConfig = 0, 0, 548, 383, 
+clsArticuloRenglones = 184, 184, 732, 567, 
+clsEstadoMercaderia = 138, 138, 686, 521, C
+clsEstadosIngMerc = 138, 138, 686, 521, 
+clsRenglonIngreso = 161, 161, 709, 544, 
+clsServicio = 184, 184, 732, 567, C
+clsCodigoTexto = 115, 115, 663, 498, C
+clsArticuloAFicha = 25, 25, 677, 450, 
+clsParametros = 250, 250, 1403, 887, 
+clsParametroItem = 0, 0, 0, 0, C

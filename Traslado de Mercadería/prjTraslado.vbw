@@ -1,0 +1,17 @@
+modStart = 132, 132, 505, 478, 
+ModGlobales = 22, 22, 686, 292, C
+modStock = 110, 110, 774, 379, 
+modListados = 132, 132, 553, 401, C
+TraMercaderia = 12, 24, 676, 348, , 44, 44, 465, 489, C
+modConnect = 132, 132, 774, 478, 
+clslPrintConfig = 44, 44, 461, 267, 
+Contador = 22, 22, 664, 368, C
+clsFieldsPrint = 92, 92, 799, 479, 
+clsRegFieldPrint = 138, 138, 845, 525, C
+clsPropFieldPrint = 161, 161, 868, 548, 
+clsRegPosXY = 0, 0, 707, 387, 
+clsPosXY = 0, 0, 0, 0, C
+clsPrintManager = 92, 92, 799, 479, C
+clsTablaRenglon = 69, 69, 724, 452, C
+clsTraspaso = 0, 0, 0, 0, C
+clsRenglonTraspaso = 0, 0, 0, 0, C

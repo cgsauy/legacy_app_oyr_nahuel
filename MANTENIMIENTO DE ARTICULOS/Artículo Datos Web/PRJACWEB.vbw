@@ -1,0 +1,5 @@
+modConeccion = 0, 0, 0, 0, C
+modStart = 66, 66, 445, 288, Z
+ModGlobales = 0, 0, 0, 0, C
+ModFormularios = 0, 0, 0, 0, C
+frmDatosWeb = 44, 44, 573, 390, , 22, 22, 406, 368, C

@@ -1,0 +1,8 @@
+frmFleteEmbarque = 66, 66, 730, 379, , 22, 22, 264, 272, C
+modConeccion = 0, 0, 0, 0, C
+ModFormularios = 0, 0, 0, 0, C
+ModGlobales = 110, 110, 432, 423, C
+modStart = 0, 0, 322, 313, 
+modArrayString = 88, 88, 432, 360, C
+clsCodigoNombre = 175, 175, 883, 600, 
+clsListaCodigoNombre = 200, 200, 908, 625, 

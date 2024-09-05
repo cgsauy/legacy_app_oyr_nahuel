@@ -1,0 +1,15 @@
+frmAnulacion = 92, 80, 1223, 857, , 44, 58, 439, 400, C
+modStart = 82, 99, 995, 827, 
+modConeccion = 136, 103, 885, 679, 
+modListados = 125, 103, 1248, 883, 
+ModCrystal = 0, 0, 0, 0, C
+modFechas = 150, 150, 996, 575, 
+ModFormularios = 0, 0, 0, 0, C
+ModGlobales = 0, 0, 0, 0, C
+modComun = 75, 75, 898, 500, 
+Contador = 35, 103, 482, 883, C
+modStock = 92, 92, 640, 475, C
+modCredito = 125, 103, 572, 935, C
+modMaeDisponibilidad = 0, 0, 0, 0, C
+modComercio = 115, 115, 663, 498, C
+clsImpresoraTicketsCnfg = 0, 0, 1162, 425, 

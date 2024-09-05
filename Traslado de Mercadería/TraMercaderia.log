@@ -1,0 +1,9 @@
+Line 36: Class VSFlex6DAOCtl.vsFlexGrid of control vsConsulta was not a loaded control class.
+Line 120: Class MSComctlLib.Toolbar of control Toolbar1 was not a loaded control class.
+Line 205: Class AACombo99.AACombo of control cDestino was not a loaded control class.
+Line 226: Class AACombo99.AACombo of control cOrigen was not a loaded control class.
+Line 247: Class AACombo99.AACombo of control cIntermediario was not a loaded control class.
+Line 266: Class AACombo99.AACombo of control cEstado was not a loaded control class.
+Line 317: Class MSComctlLib.StatusBar of control Status was not a loaded control class.
+Line 349: Class MSComctlLib.ImageList of control ImageList1 was not a loaded control class.
+Line 411: Class vsViewLib.vsPrinter of control vsPrint was not a loaded control class.

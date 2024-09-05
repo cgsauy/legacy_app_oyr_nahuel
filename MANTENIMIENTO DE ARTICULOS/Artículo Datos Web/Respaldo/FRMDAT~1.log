@@ -1,0 +1,43 @@
+Line 93: Class DHTMLEDLibCtl.DHTMLEdit of control tHtml was not a loaded control class.
+Line 115: Class RichTextLib.RichTextBox of control tTexto was not a loaded control class.
+Line 129: Class MSComctlLib.TabStrip of control tsTexto was not a loaded control class.
+Line 184: Class MSComctlLib.Toolbar of control tooMenu was not a loaded control class.
+Line 278: Class MSComctlLib.ImageList of control imgIconos was not a loaded control class.
+Line 99: The property name ActivateApplets in tHtml is invalid.
+Line 100: The property name ActivateActiveXControls in tHtml is invalid.
+Line 101: The property name ActivateDTCs in tHtml is invalid.
+Line 102: The property name ShowDetails in tHtml is invalid.
+Line 103: The property name ShowBorders in tHtml is invalid.
+Line 105: The property name Scrollbars in tHtml is invalid.
+Line 106: The property name ScrollbarAppearance in tHtml is invalid.
+Line 107: The property name SourceCodePreservation in tHtml is invalid.
+Line 108: The property name AbsoluteDropMode in tHtml is invalid.
+Line 109: The property name SnapToGrid in tHtml is invalid.
+Line 110: The property name SnapToGridX in tHtml is invalid.
+Line 111: The property name SnapToGridY in tHtml is invalid.
+Line 112: The property name BrowseMode in tHtml is invalid.
+Line 113: The property name UseDivOnCarriageReturn in tHtml is invalid.
+Line 121: The property name _ExtentX in tTexto is invalid.
+Line 122: The property name _ExtentY in tTexto is invalid.
+Line 123: The property name _Version in tTexto is invalid.
+Line 124: The property name ScrollBars in tTexto is invalid.
+Line 126: The property name TextRTF in tTexto is invalid.
+Line 135: The property name _ExtentX in tsTexto is invalid.
+Line 136: The property name _ExtentY in tsTexto is invalid.
+Line 137: The property name _Version in tsTexto is invalid.
+Line 155: The property name Tabs in tsTexto is invalid.
+Line 191: The property name _ExtentX in tooMenu is invalid.
+Line 192: The property name _ExtentY in tooMenu is invalid.
+Line 193: The property name ButtonWidth in tooMenu is invalid.
+Line 194: The property name ButtonHeight in tooMenu is invalid.
+Line 195: The property name Wrappable in tooMenu is invalid.
+Line 197: The property name Style in tooMenu is invalid.
+Line 198: The property name _Version in tooMenu is invalid.
+Line 276: The property name Buttons in tooMenu is invalid.
+Line 281: The property name _ExtentX in imgIconos is invalid.
+Line 282: The property name _ExtentY in imgIconos is invalid.
+Line 284: The property name ImageWidth in imgIconos is invalid.
+Line 285: The property name ImageHeight in imgIconos is invalid.
+Line 286: The property name MaskColor in imgIconos is invalid.
+Line 287: The property name _Version in imgIconos is invalid.
+Line 350: The property name Images in imgIconos is invalid.

@@ -1,0 +1,40 @@
+
+-- Detalle de Movimientos para un MDiTipo = XX y MDiFecha = xxx
+
+Select MDiID, MDIFecha, DisNombre, SRuCodigo, SRuNombre, DH = 'Haber', Importe = MDrImportePesos, IOriginal = MDRHaber, MDiComentario
+From MovimientoDisponibilidadRenglon, MovimientoDisponibilidad, Disponibilidad, SubRubro  
+Where MDiFecha Between '01/01/2003' AND '06/01/2003' And MDiID = MDRIDMovimiento  
+And MDiIDCompra Is Null  
+And MDRIDDisponibilidad = DisID  And DisIDSubrubro = SRuID 
+And MDRHaber is Not Null  
+UNION ALL
+Select MDiID, MDIFecha, DisNombre, SRuCodigo, SRuNombre, DH = 'Debe', Importe = MDrImportePesos, IOriginal = MDRDebe, MDiComentario
+From MovimientoDisponibilidadRenglon, MovimientoDisponibilidad, Disponibilidad, SubRubro  
+Where MDiFecha Between '01/01/2003' AND '06/01/2003' And MDiID = MDRIDMovimiento  
+And MDiIDCompra Is Null  
+And MDRIDDisponibilidad = DisID  And DisIDSubrubro = SRuID 
+And MDRDebe is Not Null  
+
+order by MDiID
+
+------------------------------------------------------------------------------------------------------
+
+
+
+Select DisNombre, SRuCodigo, SRuNombre, DH = 'Haber', Importe = Sum(MDrImportePesos), IOriginal = Sum(MDRHaber)
+From MovimientoDisponibilidadRenglon, MovimientoDisponibilidad, Disponibilidad, SubRubro
+Where MDiFecha Between '01/01/2002' AND '01/01/2003' 
+And MDiID = MDRIDMovimiento 
+And MDiIDCompra Is Null 
+And MDRIDDisponibilidad = DisID 
+And DisIDSubrubro = SRuID
+And MDRHaber is Not Null 
+Group by DisNombre, SRuCodigo, SRuNombre
+UNION ALL
+Select DisNombre, SRuCodigo, SRuNombre, DH = 'Debe', Importe = Sum(MDrImportePesos), IOriginal = Sum(MDRDebe)
+From MovimientoDisponibilidadRenglon, MovimientoDisponibilidad, Disponibilidad, SubRubro  
+Where MDiFecha Between '01/01/2002' AND '01/01/2003' And MDiID = MDRIDMovimiento  
+And MDiIDCompra Is Null  
+And MDRIDDisponibilidad = DisID  And DisIDSubrubro = SRuID 
+And MDRDebe is Not Null  
+Group by DisNombre, SRuCodigo, SRuNombre

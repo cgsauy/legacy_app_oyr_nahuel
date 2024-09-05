@@ -1,0 +1,5 @@
+modStart = 88, 88, 509, 357, C
+modConeccion = 110, 110, 531, 379, C
+ModGlobales = 110, 110, 425, 456, C
+modStock = 110, 110, 774, 379, C
+RecTransferencia = 128, 156, 446, 425, Z, 44, 0, 512, 497, C

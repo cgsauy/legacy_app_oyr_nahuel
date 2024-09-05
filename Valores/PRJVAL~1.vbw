@@ -1,0 +1,8 @@
+ModStart = 92, 92, 857, 406, C
+frmCondiciones = 0, 0, 879, 435, C, 25, 25, 904, 460, C
+modConeccion = 0, 0, 0, 0, C
+modFechas = 0, 0, 0, 0, C
+ModFormularios = 0, 0, 0, 0, C
+frmLista = 25, 25, 1046, 340, C, 50, 50, 929, 485, C
+frmValores = 75, 75, 942, 395, C, 25, 25, 904, 460, C
+ModGlobales = 0, 0, 0, 0, C

@@ -1,0 +1,15 @@
+modStart = 50, 265, 1086, 932, 
+modConeccion = 138, 138, 1123, 521, C
+frmServerPosPrinter = 161, 161, 772, 532, , 138, 138, 749, 509, C
+clsPosIBM4610 = 0, 0, 611, 371, C
+clsLineaImpresion = 23, 23, 634, 394, C
+clsFuente = 46, 46, 657, 417, C
+clsLineaSalida = 69, 69, 680, 440, C
+clsFormatoColumna = 138, 138, 749, 509, C
+modAATrayIcon = 92, 92, 812, 463, C
+frmInicio = 69, 69, 684, 440, , 46, 46, 661, 417, C
+Module1 = 138, 138, 740, 516, 
+modLogoFuente = 0, 0, 602, 378, 
+modLogoFuente3 = 115, 115, 717, 493, 
+modLogoChico = 92, 92, 694, 470, 
+clsTerminalTickeadora = 150, 150, 967, 575, C

@@ -1,0 +1,10 @@
+CoBuscarGasto = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+modBuscarGasto = 0, 0, 0, 0, C
+ModFormularios = 0, 0, 0, 0, C
+modListados = 0, 0, 0, 0, C
+ModImportaciones = 0, 0, 0, 0, C
+modComun = 0, 0, 0, 0, C
+ModGlobales = 0, 0, 0, 0, C
+modConeccion = 0, 0, 0, 0, C
+modFechas = 0, 0, 0, 0, C
+frmSetup = 0, 0, 0, 0, C, 0, 0, 0, 0, C

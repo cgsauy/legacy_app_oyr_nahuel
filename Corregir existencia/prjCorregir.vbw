@@ -1,0 +1,7 @@
+frmListado = 112, 129, 1248, 909, , 50, 50, 900, 475, C
+modStart = 120, 131, 1262, 941, C
+modComun = 129, 103, 576, 935, C
+ModGlobales = 139, 103, 586, 679, C
+ModFormularios = 0, 0, 0, 0, C
+modConeccion = 130, 103, 854, 679, C
+frmMultiple = 77, 132, 907, 708, C, 75, 75, 925, 500, C

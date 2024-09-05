@@ -1,0 +1,10 @@
+frmRecibos = 42, 99, 1010, 653, , 22, 22, 418, 470, C
+modStart = 72, 118, 905, 708, C
+modConeccion = 132, 132, 665, 519, C
+modFechas = 0, 0, 0, 0, C
+ModGlobales = 132, 132, 875, 720, C
+ModFormularios = 132, 132, 531, 580, C
+modComun = 88, 88, 799, 640, C
+modComercio = 62, 92, 916, 712, C
+ModImportaciones = 129, 103, 866, 679, C
+modMaeCheques = 141, 103, 930, 671, C

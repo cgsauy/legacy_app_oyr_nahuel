@@ -1,0 +1,8 @@
+frmSetup = 0, 0, 0, 0, C, 175, 175, 1255, 812, C
+frmListado = 86, 104, 963, 684, , 50, 50, 1130, 687, C
+modStart = 138, 103, 859, 679, C
+modComun = 0, 0, 0, 0, C
+modConeccion = 0, 0, 0, 0, C
+ModFormularios = 0, 0, 0, 0, C
+ModGlobales = 0, 0, 0, 0, C
+modListados = 0, 0, 0, 0, C

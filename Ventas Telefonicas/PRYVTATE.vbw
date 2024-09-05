@@ -1,0 +1,10 @@
+FacVtaTelefonica = 103, 103, 550, 679, , 44, 44, 777, 490, C
+ModCrystal = 0, 0, 0, 0, C
+ModGlobales = 100, 100, 998, 417, C
+modStock = 66, 66, 866, 512, C
+ModStart = 44, 44, 535, 490, 
+Contador = 0, 0, 0, 0, C
+modAutonumerico = 75, 75, 1016, 391, C
+modMaeDisponibilidad = 9, 180, 949, 499, C
+ModLView = 0, 0, 0, 0, C
+modConnect = -59, 134, 882, 450, C

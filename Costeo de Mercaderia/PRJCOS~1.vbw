@@ -1,0 +1,11 @@
+modStart = 88, 88, 947, 648, C
+frmCosteo = 91, 91, 1246, 707, , 96, 20, 833, 526, C
+modComun = 115, 125, 1153, 788, C
+modConeccion = 138, 103, 807, 679, C
+modFechas = 131, 102, 838, 550, C
+ModGlobales = 66, 66, 454, 514, C
+ModImportaciones = 220, 220, 608, 668, C
+modComercio = 173, 181, 1167, 629, C
+frmSetup = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+modListados = 0, 0, 0, 0, C
+modServicio = 225, 102, 1189, 686, 

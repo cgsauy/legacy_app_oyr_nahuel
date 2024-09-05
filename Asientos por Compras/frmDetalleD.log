@@ -1,0 +1,5 @@
+Line 63: Class orGridPreview.GridPreview of control cPrint was not a loaded control class.
+Line 66: The property name _ExtentX in cPrint is invalid.
+Line 67: The property name _ExtentY in cPrint is invalid.
+Line 76: The property name HeaderFont in cPrint is invalid.
+Line 94: The property name FooterFont in cPrint is invalid.

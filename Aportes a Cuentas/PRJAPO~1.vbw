@@ -1,0 +1,11 @@
+frmAporte = 71, 92, 996, 725, , 22, 22, 410, 470, C
+modConeccion = 94, 84, 955, 717, 
+ModGlobales = 110, 110, 498, 558, C
+modFechas = 130, 103, 577, 679, C
+modComun = 125, 125, 999, 441, C
+modComercio = 88, 88, 935, 536, C
+modStart = 32, 92, 991, 700, 
+modContador = 0, 0, 1036, 316, 
+ModCrystal = 62, 81, 970, 715, 
+clsCnfgImpresora = 125, 125, 924, 550, 
+clsImpresoraTicketsCnfg = 25, 25, 756, 450, 

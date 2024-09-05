@@ -1,0 +1,8 @@
+modStart = 44, 44, 866, 638, C
+frmParametros = 111, 140, 914, 664, C, -138, 29, 528, 522, C
+modConeccion = 0, 0, 0, 0, C
+ModGlobales = 0, 0, 0, 0, C
+modComun = 66, 66, 905, 679, C
+modComercio = 88, 88, 487, 536, C
+modCaja = 532, 99, 916, 547, C
+ModImportaciones = 128, 103, 735, 722, C

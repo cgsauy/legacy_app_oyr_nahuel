@@ -1,0 +1,10 @@
+frmListado = 66, 66, 407, 412, , 22, 22, 363, 368, C
+modStart = 88, 88, 429, 434, 
+ModFormularios = 0, 0, 0, 0, C
+modFechas = 0, 0, 0, 0, C
+ModGlobales = 0, 0, 0, 0, C
+modConeccion = 75, 75, 1000, 429, 
+modListados = 0, 0, 0, 0, C
+modStock = 88, 88, 752, 357, 
+clslPrintConfig = 0, 0, 0, 0, C
+modConstantesFacturacion = 150, 150, 1410, 787, 

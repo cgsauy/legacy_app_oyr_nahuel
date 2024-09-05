@@ -1,0 +1,12 @@
+frmDeStockCompañia = 27, 72, 970, 720, C, 198, 198, 597, 646, C
+frmInMercaderia = 62, 80, 1237, 860, , 0, 0, 399, 448, C
+modStart = 68, 110, 939, 671, 
+modConeccion = 75, 75, 1034, 394, 
+modComun = 175, 175, 1041, 600, C
+ModGlobales = 0, 0, 941, 316, C
+frmInSuceso = 115, 115, 739, 455, , 92, 92, 716, 432, C
+modFechas = 100, 100, 1059, 419, 
+ModFormularios = 0, 0, 0, 0, C
+modStock = 125, 125, 1084, 444, 
+ModImportaciones = 0, 0, 0, 0, C
+modComercio = 0, 0, 0, 0, C

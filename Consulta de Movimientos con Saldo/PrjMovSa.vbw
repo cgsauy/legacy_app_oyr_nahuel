@@ -1,0 +1,10 @@
+frmMovFisico = 44, 44, 423, 390, , 22, 22, 401, 368, C
+ModStart = 88, 88, 511, 364, 
+modConeccion = 0, 0, 0, 0, C
+ModFormularios = 0, 0, 0, 0, C
+ModGlobales = 0, 0, 0, 0, C
+modListados = 66, 66, 489, 342, C
+modFechas = 0, 0, 0, 0, C
+DeMovimientoStock = 110, 110, 489, 456, C, 88, 88, 467, 434, C
+frmSetup = 0, 0, 0, 0, C, 44, 44, 423, 390, C
+modConstantesFacturacion = 0, 0, 0, 0, C

@@ -1,0 +1,11 @@
+modStart = 72, 103, 986, 679, C
+frmDepositos = 113, 371, 1149, 930, , 125, 125, 948, 550, C
+modConeccion = 0, 0, 0, 0, C
+modComun = 144, 103, 847, 679, C
+modFechas = 0, 0, 0, 0, C
+ModFormularios = 0, 0, 0, 0, C
+ModGlobales = 128, 103, 888, 705, C
+modListados = 35, 103, 941, 679, C
+frmSetup = 129, 103, 576, 679, C, 150, 150, 973, 575, C
+modDeposito = 124, 80, 1103, 684, C
+frmWizGasto = 145, 336, 1011, 950, , 75, 75, 898, 500, C

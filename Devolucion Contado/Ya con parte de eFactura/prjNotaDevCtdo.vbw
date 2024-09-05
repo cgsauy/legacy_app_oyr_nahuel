@@ -1,0 +1,13 @@
+frmNotaCtdo = 120, 151, 504, 497, Z, 66, 66, 450, 412, C
+ModStart = 119, 96, 503, 442, 
+modConeccion = 0, 0, 0, 0, C
+ModGlobales = 0, 0, 0, 0, C
+modComercio = 44, 44, 686, 390, C
+modComun = 66, 66, 708, 412, 
+modFechas = 0, 0, 0, 0, C
+Contador = 66, 66, 361, 412, 
+modStock = -180, 77, 462, 423, C
+ModCrystal = 44, 44, 265, 390, C
+clsImpresoraTicketsCnfg = 175, 175, 1331, 600, 
+clsArtEnFicha = 125, 125, 877, 476, 
+clsFichasDevolucion = 150, 150, 902, 501, 

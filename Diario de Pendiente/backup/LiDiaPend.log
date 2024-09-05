@@ -1,0 +1,9 @@
+Line 227: Class AACombo99.AACombo of control cMoneda was not a loaded control class.
+Line 262: Class AACombo99.AACombo of control cSucursal was not a loaded control class.
+Line 233: The property name _ExtentX in cMoneda is invalid.
+Line 234: The property name _ExtentY in cMoneda is invalid.
+Line 235: The property name ListIndex in cMoneda is invalid.
+Line 268: The property name _ExtentX in cSucursal is invalid.
+Line 269: The property name _ExtentY in cSucursal is invalid.
+Line 270: The property name ListIndex in cSucursal is invalid.
+Line 280: The property name Text in cSucursal is invalid.

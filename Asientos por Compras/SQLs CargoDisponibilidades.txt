@@ -1,0 +1,115 @@
+Private Sub CargoDisponibilidades()
+
+    cons = "Select DisID, DisNombre, DisMoneda, DisIDSRCheque, SRuID, SRuCodigo, SRuNombre, Importe = Sum(MDRImportePesos), Debe = Sum(MDRDebe), Haber = Sum(MDRHaber) " _
+            & " From MovimientoDisponibilidadRenglon, MovimientoDisponibilidad, Disponibilidad, SubRubro" _
+            & " Where MDiFecha Between '" & Format(tFecha.Text, sqlFormatoF) & "' AND '" & Format(tFHasta.Text, sqlFormatoF) & "'" _
+            & " And MDiID = MDRIDMovimiento" _
+            & " And MDiIDCompra Is Not Null and MDRIdDisponibilidad = DisID" _
+            & " And DisIDSubrubro = SRuID "
+    
+    Select Case cTipoListado.ItemData(cTipoListado.ListIndex)
+        Case 0: cons = cons & " And MDRHaber = Null "   '0- Ingresos
+        Case 1: cons = cons & " And MDRDebe = Null "    '1- Egresos
+    End Select
+    
+    cons = cons & " Group by DisID, DisNombre, DisMoneda, DisIDSRCheque, SRuID, SRuCodigo, SRuNombre"
+    cons = cons & " Order by SRuNombre"
+    
+    Set rsAux = cBase.OpenResultset(cons, rdOpenDynamic, rdConcurValues)
+    If rsAux.EOF Then rsAux.Close: Exit Sub
+    
+    With vsConsulta
+        .AddItem "": .AddItem ""
+        
+        Select Case cTipoListado.ItemData(cTipoListado.ListIndex)
+            Case 0: .Cell(flexcpText, .Rows - 1, 1) = "Conceptos al DEBE" '0- Ingresos
+            Case 1: .Cell(flexcpText, .Rows - 1, 1) = "Conceptos al HABER" '1- Egresos
+        End Select
+        
+        .Cell(flexcpBackColor, .Rows - 1, 1, , .Cols - 1) = Colores.Azul
+        .Cell(flexcpForeColor, .Rows - 1, 0, , .Cols - 1) = Colores.Blanco
+        .Cell(flexcpFontBold, .Rows - 1, 0, , .Cols - 1) = True
+    End With
+    
+    Dim aTotal As Currency: aTotal = 0
+    Dim aTotalME As Currency: aTotalME = 0
+    Dim aImporte As Currency, aImporteDH As Currency
+    Dim RsCh As rdoResultset
+    
+    Do While Not rsAux.EOF
+        
+        With vsConsulta
+            aImporte = rsAux!Importe
+            If Not IsNull(rsAux!Debe) Then aImporteDH = rsAux!Debe
+            If Not IsNull(rsAux!Haber) Then aImporteDH = rsAux!Haber
+            
+            'Hay que ver (si la disponibilidad es bancaria, si los monimientos son con cheques diferidos)
+            If Not IsNull(rsAux!DisIdSRCheque) Then
+                
+                cons = "Select SRuCodigo, SRuNombre, Importe = Sum(MDRImportePesos), Debe = Sum(MDRDebe), Haber = Sum(MDRHaber) " _
+                        & " From MovimientoDisponibilidadRenglon, MovimientoDisponibilidad, Disponibilidad, SubRubro, Cheque" _
+                        & " Where MDiFecha Between '" & Format(tFecha.Text, sqlFormatoF) & "' AND '" & Format(tFHasta.Text, sqlFormatoF) & "'" _
+                        & " And MDiID = MDRIDMovimiento" _
+                        & " And MDRIdDisponibilidad IN (Select DisID from Disponibilidad Where DisIDSubrubro =  " & rsAux!SRuID & ")" _
+                        & " And MDiIDCompra Is Not Null And MDRIdDisponibilidad = DisID" _
+                        & " And DisIDSRCheque = SRuID " _
+                        & " And MDRIDCheque = CheID And CheVencimiento Is Not Null" _
+                        & " And CheLibrado Between '" & Format(tFecha.Text, sqlFormatoF) & "' AND '" & Format(tFHasta.Text, sqlFormatoF) & "'"
+                
+                Select Case cTipoListado.ItemData(cTipoListado.ListIndex)
+                    Case 0: cons = cons & " And MDRHaber = Null "   '0- Ingresos
+                    Case 1: cons = cons & " And MDRDebe = Null "    '1- Egresos
+                End Select
+                cons = cons & " Group by SRuCodigo, SRuNombre"
+                
+                Set RsCh = cBase.OpenResultset(cons, rdOpenDynamic, rdConcurValues)
+                If Not RsCh.EOF Then
+                    .AddItem ""
+                    .Cell(flexcpText, .Rows - 1, 0) = rsAux!DisNombre
+                    .Cell(flexcpText, .Rows - 1, 1) = Format(RsCh!SRuCodigo, "000000000") & " " & Trim(RsCh!SRuNombre) & " (" & Trim(rsAux!SRuNombre) & ")"
+                    .Cell(flexcpText, .Rows - 1, 5) = Format(RsCh!Importe, FormatoMonedaP)
+                    If rsAux!DisMoneda <> paMonedaPesos Then
+                        
+                        If Not IsNull(RsCh!Debe) Then .Cell(flexcpText, .Rows - 1, 6) = Format(RsCh!Debe, FormatoMonedaP)
+                        If Not IsNull(RsCh!Haber) Then .Cell(flexcpText, .Rows - 1, 6) = Format(RsCh!Haber, FormatoMonedaP)
+                        .Cell(flexcpText, .Rows - 1, 7) = "pTC " & Format(aImporte / .Cell(flexcpValue, .Rows - 1, 6), "#,##0.000")
+                        
+                        aTotalME = aTotalME + .Cell(flexcpValue, .Rows - 1, 6)
+                    End If
+                    aTotal = aTotal + .Cell(flexcpText, .Rows - 1, 5)
+                    
+                    aImporte = aImporte - .Cell(flexcpValue, .Rows - 1, 5)
+                    aImporteDH = aImporteDH - .Cell(flexcpValue, .Rows - 1, 6)
+                End If
+                RsCh.Close
+            End If
+            If aImporte <> 0 Then
+                .AddItem ""
+                .Cell(flexcpText, .Rows - 1, 0) = rsAux!DisNombre
+                .Cell(flexcpText, .Rows - 1, 1) = Format(rsAux!SRuCodigo, "000000000") & " " & Trim(rsAux!SRuNombre)
+                .Cell(flexcpText, .Rows - 1, 5) = Format(aImporte, FormatoMonedaP)
+                If rsAux!DisMoneda <> paMonedaPesos Then
+                    .Cell(flexcpText, .Rows - 1, 6) = Format(aImporteDH, FormatoMonedaP)
+                    .Cell(flexcpText, .Rows - 1, 7) = "pTC " & Format(aImporte / aImporteDH, "#,##0.000")
+                    aTotalME = aTotalME + .Cell(flexcpValue, .Rows - 1, 6)
+                End If
+                
+                aTotal = aTotal + .Cell(flexcpText, .Rows - 1, 5)
+            End If
+        End With
+        
+        rsAux.MoveNext
+    Loop
+    rsAux.Close
+    
+    With vsConsulta
+        .AddItem ""
+        .Cell(flexcpText, .Rows - 1, 1) = "Total"
+        .Cell(flexcpText, .Rows - 1, 5) = Format(aTotal, FormatoMonedaP)
+        If aTotalME <> 0 Then .Cell(flexcpText, .Rows - 1, 6) = Format(aTotalME, FormatoMonedaP)
+        .Cell(flexcpBackColor, .Rows - 1, 1, , .Cols - 1) = Colores.Obligatorio
+        .Cell(flexcpForeColor, .Rows - 1, 0, , .Cols - 1) = Colores.Rojo
+        .Cell(flexcpFontBold, .Rows - 1, 0, , .Cols - 1) = True
+    End With
+    
+End Sub
